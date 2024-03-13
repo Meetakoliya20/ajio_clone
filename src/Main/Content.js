@@ -264,6 +264,7 @@ import l8 from '../images/l8.avif'
 import l9 from '../images/l9.webp'
 import l10 from '../images/l10.webp'
 import l11 from '../images/l11.avif'
+import sa1 from '../images/sa1.avif'
 
 
 
@@ -967,6 +968,7 @@ const Content = () => {
                     <div><img src={l10} alt="..." /></div>
                     <div><img src={l11} alt="..." /></div>
              </Slider>
+             <img src={sa1} alt="..." />
             </div>
 
         </div>
