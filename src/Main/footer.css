@@ -1,0 +1,33 @@
+.footer
+{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0px 8px 0px;
+}
+
+.footer div
+{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.footer_section img
+{
+    height: 20px;
+    width: 20px;
+    margin-bottom: 5px;
+}
+.footer_section span
+{
+    font-size: 10px;
+}
+

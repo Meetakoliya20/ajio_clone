@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.content
+{
+  margin-bottom: 20vh;
+}
+
+
+.headline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.high {
+  width: 20%;
+}
+.high img {
+  width: 100%;
+  height: 100%;
+}
+
+.banner-details {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+.banner-details img {
+  width: 100%;
+  position: relative;
+  vertical-align: top;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 50px;
+  position: relative;
+  top: 50px;
+  background-color: #e1e1e1;
+  height: 5px;
+  border-radius: 2px;
+}
+.carousel-indicators {
+  z-index: 0 !important;
+}
+
+.carousel-indicators .active {
+  background-color: #6d6d6d;
+}
+
+.cashabck_offer,
+.offer,
+.trust {
+  margin-top: 40px;
+}
+
+.offer img {
+  width: 100%;
+  display: flex;
+}
+
+/* .carousel-item img {
+    transition: transform 1s ease; 
+}
+
+.carousel-item:hover img {
+    transform: scale(1.03); 
+} */
+
+#timer {
+  background-color: bisque;
+}
+
+.timer-component-wrapper {
+  position: relative;
+  top: 10px;
+  z-index: 0;
+  font-weight: 600;
+  font-size: 12px;
+  color: #666;
+  background-color: bisque;
+  padding-bottom: 3px;
+}
+.timer-component {
+  background: #fff;
+  padding: 5px;
+  text-align: center;
+  color: #d80000;
+  margin: -5px 2.5px 0 10px;
+  position: relative;
+  border-radius: 2px;
+  border: 1px solid #fff1d8;
+}
+
+.timer-component-wrapper strong {
+  display: flex;
+  justify-content: center;
+}
+.deals ,.sponsors_deals  ,.hot_deals ,.beautyall ,.gift
+{
+    margin-top: 40px;
+}
+
+
+.fashion img,.sponsers img ,.fashion_steals img ,.deals img ,.sponsors_deals img ,.w_winners img ,.exclusives img,
+.star img ,.hot_deals img ,.ss_24 img,.hot_deals1 img ,.gift img{
+  width: 100%;
+}
+
+.sponsors_items,.b_items
+{
+    display: flex;
+    align-items: center;
+}
+.sponsors_items img{
+    width: 100%;
+    height: auto;
+}
+.sponsors_items div
+{
+    width: 33.33%;
+}
+.b_items div{
+    width: 25%;
+}
+
+.slick-slide 
+{
+  height: auto;
+}
