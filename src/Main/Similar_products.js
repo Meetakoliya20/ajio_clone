@@ -5,8 +5,10 @@ const Similar_products = ({data,product,id}) => {
     const [similarData,setSimilarData]=useState([]);
    
     useEffect(() => {
+
         const filteredData = data.filter(item => item.category === product && item.id !==id);
         setSimilarData(filteredData);
+        window.scrollTo(0, 0);
     }, [data, product,id]);
    
    
@@ -15,7 +17,8 @@ const Similar_products = ({data,product,id}) => {
         
         <div className='products'>
                     {similarData.map(product => (
-                        <NavLink to={`/product/${product.id}`} key={product.id}>
+                        
+                        <NavLink to={`/products/${product.id}`} key={product.id}>
                             <div className="product-card">
                                 <img src={product.image} alt={product.name} className="similar_images" />
                                 <div className="product-details">

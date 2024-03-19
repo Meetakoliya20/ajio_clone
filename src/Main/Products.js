@@ -52,7 +52,7 @@ const Products = () => {
                 </div>
                 <div className='products'>
                     {data.map(product => (
-                        <NavLink to={`/product/${product.id}`} key={product.id}>
+                        <NavLink to={`/products/${product.id}`} key={product.id}>
                             <div className="product-card">
                                 <img src={product.image} alt={product.name} />
                                 <div className="product-details">

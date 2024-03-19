@@ -7,6 +7,8 @@
 .details{
   background-color: #f0f4f7;
 }
+
+
 .product_header {
   width: 100%;
   display: flex;
@@ -27,6 +29,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.d1 a
+{
+  border: none;
 }
 
 .d2 {
@@ -100,6 +106,7 @@
 .coupon1 a ,.coupon2 a{
   color: #347ea4;
   font-weight: 600;
+  border: none;
 }
 .coupon2
 {
@@ -149,7 +156,7 @@
 }
 .size-box {
   display: inline-block;
-  width: 40px;
+  width: 45px;
   height: 40px;
   border: 1px solid #000;
   margin: 5px;
@@ -324,6 +331,10 @@ ul{
   align-items: center;
   justify-content: center;
   
+}
+.cart a
+{
+  color: #fff;
 }
 .more_products 
 {

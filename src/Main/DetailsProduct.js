@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, NavLink } from 'react-router-dom';
-import ImgsViewer from 'react-images-gallery';
-
 import Slider from 'react-slick';
 import arrow from '../images/arrow.svg';
 import like from '../images/like.svg';
@@ -14,6 +12,7 @@ import './product.css';
 import upload from '../images/102.png'
 import star from '../images/star.svg'
 import SimilarProducts from './Similar_products';
+import Model from './Model';
 
 
 function SizeBox({ size, isSelected, onClick }) {
@@ -32,6 +31,15 @@ function DetailsProduct() {
   const [data, setData] = useState([]);
   const [allData, setAllData] = useState([]);
   const [selected, setSelected] = useState(null);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openModal = () => {
+    setIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
 
   useEffect(() => {
     const fetchData = async () => {
@@ -42,6 +50,7 @@ function DetailsProduct() {
         setAllData(jsonData)
         const filteredData = jsonData.filter(item => item.id === parseInt(id));
         setData(filteredData);
+        
       } catch (error) {
         console.error('Fetch error:', error);
       }
@@ -85,20 +94,13 @@ function DetailsProduct() {
           <Slider {...settings}>
             {data[0]?.other_image.map((image, index) => (
               <div key={index} >
-                <img src={image} alt="..." />
+                <img src={image} alt="..." onClick={openModal} />
               </div>
             ))}
           </Slider>
-          <ImgsViewer
-            imgs={data[0]?.other_image.map((image, index) => ({
-              src: image,
-              alt: `Image ${index + 1}`
-            }))}
-            isOpen={this.state.isOpen}
-            onClickPrev={this.gotoPrevImg}
-            onClickNext={this.gotoNextImg}
-            onClose={this.closeImgsViewer}
-          />
+          {isOpen && (
+            <Model isOpen={isOpen} closeModal={closeModal} images={data[0]?.other_image} />
+          )}
 
 
         </div>
@@ -185,7 +187,7 @@ function DetailsProduct() {
             <div className='add_carts'>
               <div className='upload'><img src={upload} alt="..." /></div>
               <div className='upload'><img src={like} alt="..." /></div>
-              <div className='cart'><img src={cart1} alt="..." /><strong> Buy Now</strong></div>
+              <div className='cart'><NavLink  to={`/cart/${data[0].id}`}><img src={cart1} alt="..." /><strong> Buy Now</strong></NavLink></div>
             </div>
             <div className='more_products'>
               <div><strong>More Products</strong></div>
