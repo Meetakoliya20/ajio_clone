@@ -81,12 +81,22 @@ body{
     width: max-content;
 
 }
+a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 #sale span,#men span ,#women span ,#kids span ,#homes span{
     font-size: 12px;
     color: #696969;
     font-weight: 600;
     margin-left: 5px;
+}
+.active
+{
+    border-bottom: 3px solid black;
 }
 
 

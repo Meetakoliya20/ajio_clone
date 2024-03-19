@@ -4,7 +4,12 @@
 }
 .content
 {
-  margin-bottom: 20vh;
+  min-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  flex:1
 }
 
 
@@ -12,10 +17,12 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
 }
 
 .high {
-  width: 20%;
+  width: 100%;
+  height:250px;
 }
 .high img {
   width: 100%;
@@ -51,13 +58,8 @@
   background-color: #6d6d6d;
 }
 
-.cashabck_offer,
-.offer,
-.trust {
-  margin-top: 40px;
-}
 
-.offer img {
+.offer img ,.slide-container img {
   width: 100%;
   display: flex;
 }
@@ -71,7 +73,7 @@
 } */
 
 #timer {
-  background-color: bisque;
+  background-color: #fff8eb;
 }
 
 .timer-component-wrapper {
@@ -81,7 +83,7 @@
   font-weight: 600;
   font-size: 12px;
   color: #666;
-  background-color: bisque;
+  background-color: #fff8eb;
   padding-bottom: 3px;
 }
 .timer-component {
@@ -98,10 +100,6 @@
 .timer-component-wrapper strong {
   display: flex;
   justify-content: center;
-}
-.deals ,.sponsors_deals  ,.hot_deals ,.beautyall ,.gift
-{
-    margin-top: 40px;
 }
 
 
@@ -130,4 +128,105 @@
 .slick-slide 
 {
   height: auto;
+}
+.apps
+{
+  display: flex;
+  justify-content: space-between;
+}
+.apps p
+{
+  height: 50px;
+  background-color: #fff;
+  padding: 1.2rem;
+  font-size: 12px;
+  font-weight: 600;
+  justify-content: space-between
+}
+.apps  img
+{
+/* margin-right: 10vh; */
+padding: 2vh;
+
+}
+
+
+@media only screen and (max-width: 768px)
+{
+  .apps  img
+  {
+  margin-right: 20px;
+  }
+}
+  
+
+
+
+.service
+{
+  padding: 20px 24px 0;
+    background-color: #f0f4f7;
+    margin-bottom: 8vh;
+}
+
+.service strong
+{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 2px auto;
+  font-size:10px;
+  color:#6d6d6d;
+}
+
+.s1 {
+  display: flex;
+  padding: 18px 0 ;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  cursor: pointer !important;
+  visibility: visibl
+}
+.about
+{
+  color: #202020;
+  font-size: 14px;
+  font-weight: 600;
+}
+.more
+{
+  color: #6d6d6d;
+  font-size: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .high {
+    height: 100px;
+  }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .high {
+    height: 200px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #sale span, #men span, #women span, #kids span, #homes span,.apps p,.footer_section span
+{
+  font-size: 16px!important;
+}
+.footer_section img
+{
+    height: 30px!important;
+    width: 30px!important;
+}
+.service
+{
+ 
+    margin-bottom: 12vh;
+}
 }

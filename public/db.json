@@ -1,0 +1,1647 @@
+[
+    {
+        "id": 1,
+        "image": "../products_images/1.webp",
+        "other_image": [
+            "../products_images/1.webp",
+            "../products_images/1_1.webp",
+            "../products_images/1_2.webp",
+            "../products_images/1_3.webp"
+        ],
+        "brand": "Louise ",
+        "product": "Louise Heeled Slide - Gummy",
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+        ],
+        "category": "footwear",
+        "rating": 3.5,
+        "people": 500,
+        "discount_price": 500,
+        "original_price": 1000,
+        "discount": "50%",
+        "product_detail": [
+            "Made by hand in Italy.",
+            "Square open toe.",
+            " 100% Italian leather upper. Leather insole, lining, outsole.",
+            " Free express shipping and free exchanges."
+        ]
+    },
+    {
+        "id": 2,
+        "image": "../products_images/2.webp",
+        "other_image": [
+            "../products_images/2.webp",
+            "../products_images/2_1.webp",
+            "../products_images/2_2.webp",
+            "../products_images/2_3.webp"
+        ],
+        "brand": "Louise ",
+        "product": "Louise Heeled Slide - Milky",
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+        ],
+        "category": "footwear",
+        "rating": 3.9,
+        "people": 500,
+        "discount_price": 500,
+        "original_price": 1000,
+        "discount": "50%",
+        "product_detail": [
+            "Made by hand in Italy.",
+            "Square open toe.",
+            " 100% Italian leather upper. Leather insole, lining, outsole.",
+            " Free express shipping and free exchanges."
+        ]
+    },
+    {
+        "id": 3,
+        "image": "../products_images/3.webp",
+        "other_image": [
+            "../products_images/3.webp",
+            "../products_images/3_1.webp",
+            "../products_images/3_2.webp",
+            "../products_images/3_3.webp"
+        ],
+        "brand": "Thelma ",
+        "product": "Thelma Sandal - Stone",
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+        ],
+        "category": "footwear",
+        "rating": 3.9,
+        "people": 500,
+        "discount_price": 500,
+        "original_price": 1000,
+        "discount": "50%",
+        "product_detail": [
+            "Made by hand in Italy.",
+            "Square open toe.",
+            " 100% Italian leather upper. Leather insole, lining, outsole.",
+            " Free express shipping and free exchanges."
+        ]
+    },
+    {
+        "id": 4,
+        "image": "../products_images/4.webp",
+        "other_image": [
+            "../products_images/4.webp",
+            "../products_images/4_1.webp",
+            "../products_images/4_2.webp",
+            "../products_images/4_3.webp",
+            "../products_images/4_4.webp",
+            "../products_images/4_5.webp",
+            "../products_images/4_6.webp",
+            "../products_images/4_7.webp",
+            "../products_images/4_8.webp"
+        ],
+        "brand": "Puffy ",
+        "product": "Puffy Sandal - Pink Cloud",
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+        ],
+        "category": "footwear",
+        "rating": 3.9,
+        "people": 500,
+        "discount_price": 500,
+        "original_price": 1000,
+        "discount": "50%",
+        "product_detail": [
+            "Made by hand in Italy.",
+            "Square open toe.",
+            " 100% Italian leather upper. Leather insole, lining, outsole.",
+            " Free express shipping and free exchanges."
+        ]
+    },
+    {
+        "id": 5,
+        "image": "../products_images/5.webp",
+        "other_image": [
+            "../products_images/5.webp",
+            "../products_images/5_1.webp",
+            "../products_images/5_2.webp",
+            "../products_images/5_3.webp",
+            "../products_images/5_4.webp"
+        ],
+        "brand": "Mini Flex ",
+        "product": "Mini Flex Bag - Milky",
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+        ],
+        "category": "bags",
+        "rating": 3.9,
+        "people": 500,
+        "discount_price": 500,
+        "original_price": 1000,
+        "discount": "50%",
+        "product_detail": [
+            "Crafted from Italian calf leather.",
+            " Microsuede lining. Gold hardware.",
+            "   Detachable and adjustable shoulder strap.",
+            " h:15.5 X w:18.5 cm (6.1 X 7.3 in.)"
+        ]
+    },
+    {
+        "id": 6,
+        "image": "../products_images/6.webp",
+        "other_image": [
+            "../products_images/6.webp",
+            "../products_images/6_1.webp",
+            "../products_images/6_2.webp",
+            "../products_images/6_3.webp",
+            "../products_images/6_4.webp",
+            "../products_images/6_5.webp",
+            "../products_images/6_6.webp",
+            "../products_images/6_7.webp"
+        ],
+        "brand": "Naomi",
+        "product": "Naomi - Milky",
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+        ],
+        "category": "bags",
+        "rating": 3.9,
+        "people": 500,
+        "discount_price": 500,
+        "original_price": 1000,
+        "discount": "50%",
+        "product_detail": [
+            "Crafted from Italian calf leather.",
+            " Microsuede interior, adjustable and detachable shoulder strap, magnetic flap closure, two main interior compartments, one interior zipped pocket, brushed gold hardware.",
+            " h:16 X w:23.5 cm (6.3 X 9.25 in)",
+            "Shoulder drop: 44 - 54cm (17.25 - 21.25 in.)"
+        ]
+    },
+    {
+        "id": 7,
+        "image": "../products_images/7.webp",
+        "other_image": [
+            "../products_images/7.webp",
+            "../products_images/7_1.webp",
+            "../products_images/7_2.webp",
+            "../products_images/7_3.webp",
+            "../products_images/7_4.webp",
+            "../products_images/7_5.webp",
+            "../products_images/7_6.webp",
+            "../products_images/7_7.webp"
+        ],
+        "brand": "Naomi",
+        "product": "Naomi Long Purse - Milky",
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+        ],
+        "category": "bags",
+        "rating": 3.9,
+        "people": 500,
+        "discount_price": 500,
+        "original_price": 1000,
+        "discount": "50%",
+        "product_detail": [
+            "Crafted from Italian calf leather.",
+            "Can fit iPhone 12 Pro Max.",
+            "Italian calf leather lining, hand-painted edges, gold hardware, foldover top with press-stud closure,",
+            "adjustable and detachable shoulder strap.",
+            "w:20 X h:10 cm (7.85 X 4 in)",
+            "Shoulder drop: 60 cm (21.5 in)"
+        ]
+    },
+    {
+        "id": 8,
+        "image": "../products_images/8.webp",
+        "other_image": [
+            "../products_images/8.webp",
+            "../products_images/8_1.webp",
+            "../products_images/8_2.webp",
+            "../products_images/8_3.webp",
+            "../products_images/8_4.webp",
+            "../products_images/8_5.webp",
+            "../products_images/8_6.webp",
+            "../products_images/8_7.webp"
+        ],
+        "brand": "Mini",
+        "product": "Mini Pulse - Gummy",
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+        ],
+        "category": "bags",
+        "rating": 3.9,
+        "people": 500,
+        "discount_price": 500,
+        "original_price": 1000,
+        "discount": "50%",
+        "product_detail": [
+            "Crafted from Italian calf leather.",
+            "Microsuede lining, adjustable and detachable strap, magnet closure, gold finish hardware, two interior compartments.",
+            "Italian calf leather lining, hand-painted edges, gold hardware, foldover top with press-stud closure,",
+            "adjustable and detachable shoulder strap.",
+            " w:19 X h:12.5 X d:5.5 cm (7.5 X 4.9 X 2.2 in)",
+            "Shoulder drop: 56 - 39 cm (22 - 15.4 in"
+        ]
+    },
+    {
+        "id": 9,
+        "image": "../products_images/9.avif",
+        "other_image": [
+            "../products_images/9.avif",
+            "../products_images/9_1.avif",
+            "../products_images/9_2.avif",
+            "../products_images/9_3.avif",
+            "../products_images/9_4.avif"
+        ],
+        "brand": "FableStreet",
+        "product": "Maroon Satin Cowl Neck Top",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+        ],
+        "category": "clothes",
+        "rating": 3.9,
+        "people": 243,
+        "discount_price": 1916,
+        "original_price": 2395,
+        "discount": "20%",
+        "product_detail": [
+            "Material:Satin",
+            " Occasion:Formal",
+            "Type:Regular",
+            "Pattern:Solid/Plain",
+            "Closure Type: Pull On",
+            " Fit:Regular",
+            "Neckline Type:Cowl Neck",
+            " Sleeve Type:Full Sleeves"
+        ]
+    },
+    {
+        "id": 10,
+        "image": "../products_images/10.jpg",
+        "other_image": [
+            "../products_images/10.jpg",
+            "../products_images/10_1.jpg",
+            "../products_images/10_2.jpg",
+            "../products_images/10_3.jpg",
+            "../products_images/10_4.jpg",
+            "../products_images/10_5.jpg",
+            "../products_images/10_6.jpg"
+        ],
+        "brand": "Aldo",
+        "product": "Meleys Women's Miscellaneous Joggers",
+        "sizes": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "category": "footwear",
+        "rating": 4.0,
+        "people": 543,
+        "discount_price": 1916,
+        "original_price": 2395,
+        "discount": "20%",
+        "product_detail": [
+            "Toe Type: Round Toe",
+            " Country Of Origin: China",
+            "Brand Description: Meleys Women's Miscellaneous Joggers",
+            "Color: Miscellaneous",
+            " Heel type: 3",
+            " Wash Care: Wipe With Clean And Dry Cloth",
+            "HSN Code: 64029990",
+            "Product Length: 31 cm",
+            "Product Width: 29 cm",
+            "Product Height: 12 cm"
+        ]
+    },
+    {
+        "id": 11,
+        "image": "../products_images/11.jpg",
+        "other_image": [
+            "../products_images/11.jpg",
+            "../products_images/11_1.jpg",
+            "../products_images/11_2.jpg",
+            "../products_images/11_3.jpg",
+            "../products_images/11_4.jpg"
+        ],
+        "brand": "Aldo",
+        "product": "Twirly Women's Black Dress Sandals",
+        "sizes": [
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "category": "footwear",
+        "rating": 4.0,
+        "people": 543,
+        "discount_price": 1916,
+        "original_price": 2395,
+        "discount": "20%",
+        "product_detail": [
+            "Toe Type: Square Toe",
+            "Country Of Origin: China",
+            "Brand Description: Twirly Women's Black Dress Sandals",
+            " Color: Black",
+            "Heel type: 2.75",
+            "Wash Care: Wipe With Clean And Dry Cloth",
+            "HSN Code: 64029990",
+            " Product Length: 31 cm",
+            "Product Width: 29 cm",
+            "Product Height: 12 cm"
+        ]
+    },
+    {
+        "id": 12,
+        "image": "../products_images/12.avif",
+        "other_image": [
+            "../products_images/12.avif",
+            "../products_images/12_1.avif",
+            "../products_images/12_2.avif",
+            "../products_images/12_3.avif",
+            "../products_images/12_4.avif",
+            "../products_images/12_5.avif",
+            "../products_images/12_6.avif"
+        ],
+        "brand": "Clarks",
+        "product": "Wallabee Cup Maple",
+        "sizes": [
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "category": "footwear",
+        "rating": 4.0,
+        "people": 543,
+        "discount_price": 1916,
+        "original_price": 2395,
+        "discount": "20%",
+        "product_detail": [
+            "Net Quantity 1 N (1 pair)",
+            "Name of Commodity shoes",
+            "Net Weight 980",
+            "Country of Origin Vietnam",
+            "Imported By CLARKS RELIANCE FOOTWEAR PRIVATE LIMITED"
+        ]
+    },
+    {
+        "id": 13,
+        "image": "../products_images/13.jpeg",
+        "other_image": [
+            "../products_images/13.jpeg",
+            "../products_images/13_1.webp",
+            "../products_images/13_2.webp",
+            "../products_images/13_3.webp",
+            "../products_images/13_4.webp",
+            "../products_images/13_5.webp",
+            "../products_images/13_6.webp"
+        ],
+        "brand": "H&M",
+        "product": "Microfibre strappy top",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "category": "clothes",
+        "rating": 4.5,
+        "people": 8,
+        "discount_price": 599,
+        "original_price": 1000,
+        "discount": "40%",
+        "product_detail": [
+            "Length: Regular length",
+            "Sleeve Length: Sleeveless",
+            "Fit: Slim fit",
+            "Style: Strappy top",
+            " Description: Dark grey, Solid colour",
+            "Concept: BASICS, EVERYDAY FASHION",
+            "Price (MRP): Rs. 599.00 incl. of all taxes",
+            "Country of production: Cambodia",
+            "Common generic name: Tank top",
+            "Net Quantity: 1 N",
+            "Manufactured by: N/A"
+        ]
+    },
+    {
+        "id": 14,
+        "image": "../products_images/14.jpeg",
+        "other_image": [
+            "../products_images/14.jpeg",
+            "../products_images/14_1.webp",
+            "../products_images/14_2.webp",
+            "../products_images/14_3.webp",
+            "../products_images/14_4.webp",
+            "../products_images/14_5.webp"
+        ],
+        "brand": "H&M",
+        "product": "Slim Straight High Ankle Jeans",
+        "sizes": [
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46
+        ],
+        "category": "clothes",
+        "rating": 4.5,
+        "people": 8,
+        "discount_price": 2299,
+        "original_price": 3000,
+        "discount": "20%",
+        "product_detail": [
+            "Length: Long",
+            "Waist Rise: High waist",
+            "Fit: Slim fit",
+            "Style: Straight leg",
+            "Description: White, Solid colour",
+            "Concept: EVERYDAY FASHION",
+            "Price (MRP): Rs. 2,299.00 incl. of all taxes",
+            "Country of production: Bangladesh",
+            "Common generic name: Trousers",
+            "Net Quantity: 1 N",
+            "Manufactured by: N/A"
+        ]
+    },
+    {
+        "id": 15,
+        "image": "../products_images/15.avif",
+        "other_image": [
+            "../products_images/15.avif",
+            "../products_images/15_1.avif",
+            "../products_images/15_2.avif",
+            "../products_images/15_3.avif"
+        ],
+        "brand": "PUMA",
+        "product": "PUMA x X-GIRL Women's Hoodie",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "category": "clothes",
+        "rating": 4.5,
+        "people": 8,
+        "discount_price": 2299,
+        "original_price": 3000,
+        "discount": "20%",
+        "product_detail": [
+            "PUMA x X-GIRL has arrived. The collab is bringing a modern, feminine edge to classic street and skate ",
+            "Style: 624708_01",
+            "Color: PUMA Black"
+        ]
+    },
+    {
+        "id": 16,
+        "image": "../products_images/16.avif",
+        "other_image": [
+            "../products_images/16.avif",
+            "../products_images/16_1.avif",
+            "../products_images/16_2.avif",
+            "../products_images/16_3.avif",
+            "../products_images/16_4.avif",
+            "../products_images/16_5.avif"
+        ],
+        "brand": "PUMA",
+        "product": "SUMMER DAZE Women's Relaxed Fit T-shirt",
+        "sizes": [
+            "S",
+            "L",
+            "XL"
+        ],
+        "category": "clothes",
+        "rating": 4.5,
+        "people": 8,
+        "discount_price": 2299,
+        "original_price": 3000,
+        "discount": "20%",
+        "product_detail": [
+            "Style: 683715_45",
+            "Color: Peach Fizz",
+            "Relaxed fit",
+            "Crew neck",
+            "PUMA Cat logo at chest",
+            "Short sleeves"
+        ]
+    },
+    {
+        "id": 17,
+        "image": "../products_images/17.avif",
+        "other_image": [
+            "../products_images/17.avif",
+            "../products_images/17_1.avif",
+            "../products_images/17_2.avif",
+            "../products_images/17_3.avif",
+            "../products_images/17_4.avif",
+            "../products_images/17_5.avif",
+            "../products_images/17_6.avif",
+            "../products_images/17_7.avif"
+        ],
+        "brand": "PUMA",
+        "product": "Mayze Stack Soft Winter Women's Sneakers",
+        "sizes": [
+            "US6",
+            "US7",
+            "US8"
+        ],
+        "category": "footwear",
+        "rating": 4.5,
+        "people": 8,
+        "discount_price": 2299,
+        "original_price": 3000,
+        "discount": "20%",
+        "product_detail": [
+            "Style: 393065_01",
+            "Color: Warm White",
+            "Full suede upper",
+            "Suede Formstrip",
+            "Textile heel cap with debossed and foil printed PUMA cat logo",
+            " Deboss and foil printed PUMA branding on quarter panel"
+        ]
+    },
+    {
+        "id": 18,
+        "image": "../products_images/18.jpg",
+        "other_image": [
+            "../products_images/18.jpg",
+            "../products_images/18_1.jpg",
+            "../products_images/18_2.jpg",
+            "../products_images/18_3.jpg",
+            "../products_images/18_4.jpg"
+        ],
+        "brand": "ZARA",
+        "product": "TRANSPARENT HIGH-HEEL SANDALS",
+        "sizes": [
+            "US6",
+            "US7",
+            "US8",
+            "US9"
+        ],
+        "category": "footwear",
+        "rating": 4.5,
+        "people": 8,
+        "discount_price": 2299,
+        "original_price": 3000,
+        "discount": "20%",
+        "product_detail": [
+            "High-heel sandals.",
+            "Transparent straps on the front. Methacrylate block heel.",
+            "Heel height: 9.8 cm. / 3.8 "
+        ]
+    },
+    {
+        "id": 19,
+        "image": "../products_images/19.jpg",
+        "other_image": [
+            "../products_images/19.jpg",
+            "../products_images/19_1.jpg",
+            "../products_images/19_2.jpg",
+            "../products_images/19_3.jpg",
+            "../products_images/19_4.jpg"
+        ],
+        "brand": "ZARA",
+        "product": "HIGH-HEEL VINYL SANDALS WITH RHINESTONES",
+        "sizes": [
+            "US6",
+            "US7",
+            "US8",
+            "US9"
+        ],
+        "category": "footwear",
+        "rating": 4.5,
+        "people": 800,
+        "discount_price": 2299,
+        "original_price": 3000,
+        "discount": "20%",
+        "product_detail": [
+            "High-heel sandals.",
+            "Transparent straps on the front. Methacrylate block heel.",
+            "Heel height: 10 cm. / 3.9 "
+        ]
+    },
+    {
+        "id": 20,
+        "image": "../products_images/20.avif",
+        "other_image": [
+            "../products_images/20.avif",
+            "../products_images/20_1.avif",
+            "../products_images/20_2.avif",
+            "../products_images/20_3.avif",
+            "../products_images/20_4.avif",
+            "../products_images/20_5.avif",
+            "../products_images/20_6.avif",
+            "../products_images/20_7.avif"
+        ],
+        "brand": "Mi Arcus",
+        "product": "Unisex 2 feet Teddy Bear Soft Toy",
+        "sizes": [],
+        "category": "toys",
+        "rating": 4.5,
+        "people": 800,
+        "discount_price": 2299,
+        "original_price": 3000,
+        "discount": "20%",
+        "product_detail": [
+            "  Get a cute little friend and cuddle buddy for your tiny-tot",
+            "made with love and care to beat the baby blues for a happy play or nap time.",
+            "Designed with soft and durable fabric materials, it is for sure going to be your child’s favourite possession in his/her magical world! 70 x 50 cm"
+        ]
+    },
+    {
+        "id": 21,
+        "image": "../products_images/21.webp",
+        "other_image": [
+            "../products_images/21.webp",
+            "../products_images/21_1.webp",
+            "../products_images/21_2.webp",
+            "../products_images/21_3.webp",
+            "../products_images/21_4.webp",
+            "../products_images/21_5.webp",
+            "../products_images/21_6.webp",
+            "../products_images/21_7.webp"
+        ],
+        "brand": "ADILQADRI",
+        "product": "Shanaya Luxury Attar Perfume",
+        "sizes": [],
+        "category": "men_grooming",
+        "rating": 4.6,
+        "people": 10270,
+        "discount_price": 599,
+        "original_price": 899,
+        "discount": "30%",
+        "product_detail": [
+            "Non-Alcoholic",
+            "Unisex",
+            "Roll-On",
+            "Extra Long Lasting",
+            "Arabic And French Blend"
+        ]
+    },
+    {
+        "id": 22,
+        "image": "../products_images/22.webp",
+        "other_image": [
+            "../products_images/22.webp",
+            "../products_images/22_1.webp",
+            "../products_images/22_2.webp",
+            "../products_images/22_3.webp",
+            "../products_images/22_4.webp",
+            "../products_images/22_5.webp",
+            "../products_images/22_6.webp",
+            "../products_images/22_7.webp"
+        ],
+        "brand": "BELLAVITA",
+        "product": "WHITE OUD UNISEX",
+        "sizes": [],
+        "category": "men_grooming",
+        "rating": 4.5,
+        "people": 299,
+        "discount_price": 575,
+        "original_price": 999,
+        "discount": "42%",
+        "product_detail": [
+            "Long-lasting",
+            "Made with imported oils",
+            "IFRA-certified",
+            "Eau de Parfum for All"
+        ]
+    },
+    {
+        "id": 23,
+        "image": "../products_images/23.webp",
+        "other_image": [
+            "../products_images/23.webp",
+            "../products_images/23_1.webp",
+            "../products_images/23_2.webp",
+            "../products_images/23_3.webp",
+            "../products_images/23_4.webp",
+            "../products_images/23_5.webp"
+        ],
+        "brand": "BELLAVITA",
+        "product": "DATE WOMAN",
+        "sizes": [],
+        "category": "men_grooming",
+        "rating": 4.6,
+        "people": 86,
+        "discount_price": 539,
+        "original_price": 899,
+        "discount": "40%",
+        "product_detail": [
+            "LONG LASTING",
+            "IFRA - CERTIFIED",
+            "IMPORTED OILS",
+            "MAKE IN INDIA"
+        ]
+    },
+    {
+        "id": 24,
+        "image": "../products_images/24.webp",
+        "other_image": [
+            "../products_images/24.webp",
+            "../products_images/24_1.webp",
+            "../products_images/24_2.webp",
+            "../products_images/24_3.webp",
+            "../products_images/24_4.webp",
+            "../products_images/24_5.webp",
+            "../products_images/24_6.webp"
+        ],
+        "brand": "BELLAVITA",
+        "product": "CEO WOMAN",
+        "sizes": [],
+        "category": "women_grooming",
+        "rating": 4.4,
+        "people": 34,
+        "discount_price": 575,
+        "original_price": 999,
+        "discount": "42%",
+        "product_detail": [
+            "LONG LASTING",
+            "IFRA - CERTIFIED",
+            "IMPORTED OILS",
+            "MAKE IN INDIA"
+        ]
+    },
+    {
+        "id": 25,
+        "image": "../products_images/25.avif",
+        "other_image": [
+            "../products_images/25.avif",
+            "../products_images/25_1.avif",
+            "../products_images/25_2.avif",
+            "../products_images/25_3.avif",
+            "../products_images/25_4.avif",
+            "../products_images/25_5.avif",
+            "../products_images/25_6.avif",
+            "../products_images/25_7.avif"
+        ],
+        "brand": "MAMAEARTH",
+        "product": "Vitamin C Daily Glow Sunscreen With Vitamin C & Turmeric for Sun Protection & Glow - 80 g",
+        "sizes": [],
+        "category": "women_grooming",
+        "rating": 5.0,
+        "people": 66,
+        "discount_price": 449,
+        "original_price": 500,
+        "discount": "10%",
+        "product_detail": [
+            "Protect your skin from sun damage & get your daily glow up with Mamaearth Vitamin C Daily Glow Sunscreen. With SPF 50 & PA+++, this sunscreen gives your skin adequate sun protection without any white cast.",
+            "Crafted with Vitamin C, the sunscreen brightens skin & shields it from UVA & UVB rays. Infused with the goodness of Turmeric, it heals damaged skin caused by sun exposure & revives your skin's natural glow. That's not all!  It comes with a lightweight and non-sticky texture that gets absorbed instantly without any greasy residue.",
+            "Mamaearth Vitamin C Daily Glow Sunscreen is also Made Safe certified, which means it contains no toxins or harmful chemicals."
+        ]
+    },
+    {
+        "id": 26,
+        "image": "../products_images/26.webp",
+        "other_image": [
+            "../products_images/26.webp",
+            "../products_images/26_1.webp",
+            "../products_images/26_2.webp",
+            "../products_images/26_3.webp",
+            "../products_images/26_4.webp",
+            "../products_images/26_5.webp",
+            "../products_images/26_6.webp"
+        ],
+        "brand": "DOTANDKEY",
+        "product": "Vitamin C + E Gel Facewash",
+        "sizes": [],
+        "category": "women_grooming",
+        "rating": 5.0,
+        "people": 66,
+        "discount_price": 249,
+        "original_price": 300,
+        "discount": "30%",
+        "product_detail": [
+            "Get clean, glowing & even-toned skin with this sulphate-free Vitamin C Facewash.",
+            "Infused with Triple Vitamin C, Sicilian Blood Orange, Niacinamide & Vitamin E.",
+            "Reduces dullness, fades dark spots & de-tans for visibly even toned skin.",
+            "It also unclogs pores of dirt & excess oil, leaving it clean & fresh",
+            "A non-drying facewash that's suitable for all skin types"
+        ]
+    },
+    {
+        "id": 27,
+        "image": "../products_images/27.webp",
+        "other_image": [
+            "../products_images/27.webp",
+            "../products_images/27_1.webp",
+            "../products_images/27_2.webp",
+            "../products_images/27_3.webp",
+            "../products_images/27_4.webp"
+        ],
+        "brand": "NIVEA",
+        "product": "NIVEA BODY MILK RICH NOURISHING 5IN1 COMPLETE CARE",
+        "sizes": [],
+        "category": "women_grooming",
+        "rating": 5.0,
+        "people": 66,
+        "discount_price": 249,
+        "original_price": 300,
+        "discount": "30%",
+        "product_detail": [
+            "Nourishing",
+            "Caring",
+            "Moisturising",
+            "Almond Oil",
+            "Dry Skin"
+        ]
+    },
+    {
+        "id": 28,
+        "image": "../products_images/28.webp",
+        "other_image": [
+            "../products_images/28.webp",
+            "../products_images/28.webp"
+        ],
+        "brand": "NIVEA",
+        "product": "NIVEA OIL IN LOTION ROSE & ARGAN OIL",
+        "sizes": [],
+        "category": "women_grooming",
+        "rating": 5.0,
+        "people": 66,
+        "discount_price": 249,
+        "original_price": 300,
+        "discount": "30%",
+        "product_detail": [
+            "Fast absorbing",
+            "Moisturising",
+            "Argan Oil",
+            "Normal skin",
+            " Dry Skin"
+        ]
+    },
+    {
+        "id": 29,
+        "image": "../products_images/29.webp",
+        "other_image": [
+            "../products_images/29.webp",
+            "../products_images/29_1.webp",
+            "../products_images/29_2.webp",
+            "../products_images/29_3.webp",
+            "../products_images/29_4.webp",
+            "../products_images/29_5.webp",
+            "../products_images/29_6.webp",
+            "../products_images/29_7.webp"
+        ],
+        "brand": "POND'S",
+        "product": "Pure Detox Anti-Pollution Purity Face Wash with Activated Charcoal",
+        "sizes": [],
+        "category": "women_grooming",
+        "rating": 5.0,
+        "people": 15,
+        "discount_price": 339,
+        "original_price": 450,
+        "discount": "11%",
+        "product_detail": [
+            "With activated charcoal, this deep cleanser extracts out pollutants and impurities, leaving skin so pure",
+            "it glows! Urban atmospheres are plagued with dust and pollutants that are quite harmful to your skin. These particles settle on your skin",
+            "penetrate the surface causing possible long-term damage while also darkening your skin cells from the deep within."
+        ]
+    },
+    {
+        "id": 30,
+        "image": "../products_images/30.webp",
+        "other_image": [
+            "../products_images/30.webp",
+            "../products_images/30_1.webp",
+            "../products_images/30_2.webp",
+            "../products_images/30_3.webp"
+        ],
+        "brand": "knya",
+        "product": "Classic New Gen4.66 Classic Women's 5-Pocket (Mauve) Scrub",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL",
+            "4XL"
+        ],
+        "category": "clothes",
+        "rating": 4.66,
+        "people": 15,
+        "discount_price": 1099,
+        "original_price": 1500,
+        "discount": "31%",
+        "product_detail": [
+            "Supersoft fabric",
+            "Breathable fabric",
+            "Featherlite fabric ",
+            "Poly-viscose fabric"
+        ]
+    },
+    {
+        "id": 31,
+        "image": "../products_images/31.webp",
+        "other_image": [
+            "../products_images/31.webp",
+            "../products_images/31_1.webp",
+            "../products_images/31_2.webp"
+        ],
+        "brand": "shyaway",
+        "product": "Susie Black Beauty Full Coverage Solid Lingerie Set",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+        ],
+        "category": "clothes",
+        "rating": 4.66,
+        "people": 15,
+        "discount_price": 999,
+        "original_price": 1500,
+        "discount": "34%",
+        "product_detail": [
+            "Supersoft fabric",
+            "Breathable fabric",
+            "Featherlite fabric ",
+            "Poly-viscose fabric"
+        ]
+    },
+    {
+        "id": 32,
+        "image": "../products_images/32.png",
+        "other_image": [
+            "../products_images/32.png",
+            "../products_images/32_1.png",
+            "../products_images/32_2.png",
+            "../products_images/32_3.png",
+            "../products_images/32_4.png",
+            "../products_images/32_5.png",
+            "../products_images/32_6.png",
+            "../products_images/32_7.png"
+        ],
+        "brand": "thesirona",
+        "product": "Menstrual Cup with Pouch - Large",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "women_hygiene",
+        "rating": 4.8,
+        "people": 2797,
+        "discount_price": 259,
+        "original_price": 399,
+        "discount": "34%",
+        "product_detail": [
+            "FDA Approved ",
+            "100% medical grade silicone",
+            "Reusable ",
+            "8 hr period protection",
+            "Economical"
+        ]
+    },
+    {
+        "id": 33,
+        "image": "../products_images/33.png",
+        "other_image": [
+            "../products_images/33.png",
+            "../products_images/33_1.jpeg",
+            "../products_images/33_2.jpeg",
+            "../products_images/33_3.jpeg",
+            "../products_images/33_4.jpeg",
+            "../products_images/33_5.jpeg"
+        ],
+        "brand": "thesirona",
+        "product": "Sirona Underarm Sweat Pads| Anti-Stain, Soft & Rash-Free, Self-Adhesive Pads, Ultra-thin, Odour Concealing, Disposable - Pack of 12",
+        "sizes": [],
+        "category": "women_hygiene",
+        "rating": 4.8,
+        "people": 113,
+        "discount_price": 181,
+        "original_price": 185,
+        "discount": "3%",
+        "product_detail": [
+            "Gender-Neutral",
+            "Anti-Stain",
+            "Soft & Rash-Free",
+            "Super Absorbent",
+            "Self-Sticking",
+            "Works on All Fabrics"
+        ]
+    },
+    {
+        "id": 34,
+        "image": "../products_images/34.jpeg",
+        "other_image": [
+            "../products_images/34.jpeg",
+            "../products_images/34_1.jpeg",
+            "../products_images/34_2.jpeg",
+            "../products_images/34_3.jpeg",
+            "../products_images/34_4.jpeg",
+            "../products_images/34_5.jpeg",
+            "../products_images/34_6.jpeg"
+        ],
+        "brand": "thesirona",
+        "product": "Sirona Blink and Glow Facial Razor | Painfree Facial Hair Removal for Women, Razor for Eyebrow, Upper Lip, Forehead, Chin and Sideburns, Reusable (Pack of 3)",
+        "sizes": [],
+        "category": "women_grooming",
+        "rating": 4.8,
+        "people": 294,
+        "discount_price": 199,
+        "original_price": 275,
+        "discount": "30%",
+        "product_detail": [
+            "Stainless Steel Blade",
+            "Precise Shave",
+            "No Nicks",
+            "No Cuts",
+            "Eyebrow, Chin, Sideburns, Upper Lip, Forehead"
+        ]
+    },
+    {
+        "id": 35,
+        "image": "../products_images/35.jpeg",
+        "other_image": [
+            "../products_images/35.jpeg",
+            "../products_images/35_1.jpeg",
+            "../products_images/35_2.jpeg",
+            "../products_images/35_3.jpeg",
+            "../products_images/35_4.jpeg",
+            "../products_images/35_5.jpeg"
+        ],
+        "brand": "thesirona",
+        "product": "Sirona Electric Facial Razor for Women | Hair Removal Razor for Face, 360 Degree Precision Trim, Built-in Light, Battery Operated, Travel friendly, For All Skin Types",
+        "sizes": [],
+        "category": "women_grooming",
+        "rating": 5,
+        "people": 39,
+        "discount_price": 499,
+        "original_price": 999,
+        "discount": "50%",
+        "product_detail": [
+            "360° Trim|Battery Operated",
+            "Built-In-Light",
+            "Painless",
+            "Easy-to-Use",
+            "Chin, Sideburns, Upper Lip, Forehead"
+        ]
+    },
+    {
+        "id": 36,
+        "image": "../products_images/36.jpeg",
+        "other_image": [
+            "../products_images/36.jpeg",
+            "../products_images/36_1.jpeg",
+            "../products_images/36_2.jpeg",
+            "../products_images/36_3.jpeg",
+            "../products_images/36_4.jpeg",
+            "../products_images/36_5.jpeg",
+            "../products_images/36_6.jpeg",
+            "../products_images/36_7.jpeg",
+            "../products_images/36_8.jpeg",
+            "../products_images/36_9.jpeg"
+        ],
+        "brand": "thesirona",
+        "product": "Sirona Talc Free Hair Removal Cream for Dry & Sensitive Skin | Enriched with Shea Butter, Aloe Vera & Vitamin E, Hair Removal Cream for Bikini Line, Underarm, Legs - 50gm",
+        "sizes": [],
+        "category": "women_grooming",
+        "rating": 4.9,
+        "people": 46,
+        "discount_price": 147,
+        "original_price": 149,
+        "discount": "3%",
+        "product_detail": [
+            "Aloe Vera & Vitamin E",
+            "Dermatologically Tested",
+            "Painless",
+            "Arms & Underarms, Legs, Bikini Line"
+        ]
+    },
+    {
+        "id": 37,
+        "image": "../products_images/37.jpeg",
+        "other_image": [
+            "../products_images/37.jpeg",
+            "../products_images/37_1.jpeg",
+            "../products_images/37_2.jpeg",
+            "../products_images/37_3.jpeg",
+            "../products_images/37_4.jpeg",
+            "../products_images/37_5.jpeg",
+            "../products_images/37_6.jpeg",
+            "../products_images/37_7.jpeg",
+            "../products_images/37_8.jpeg",
+            "../products_images/37_9.jpeg"
+        ],
+        "brand": "thesirona",
+        "product": "Sirona Aloe Boost Twin Blade Disposable Razor | Hair Removal Razor for Smooth Arms, Legs, Underarms & Bikini Line, 2 Blade Shaving Women Razor (Pack of 1)",
+        "sizes": [],
+        "category": "women_grooming",
+        "rating": 4.8,
+        "people": 334,
+        "discount_price": 170,
+        "original_price": 199,
+        "discount": "15%",
+        "product_detail": [
+            " Aloe Vera Lubrication",
+            "Twin Blade Razor",
+            "Stainless Steel Blade",
+            "Arms & Underarms, Legs, Bikini Line"
+        ]
+    },
+    {
+        "id": 38,
+        "image": "../products_images/38.jpeg",
+        "other_image": [
+            "../products_images/38.jpeg",
+            "../products_images/38_1.jpeg",
+            "../products_images/38_2.jpeg",
+            "../products_images/38_3.jpeg",
+            "../products_images/38_4.jpeg",
+            "../products_images/38_5.jpeg",
+            "../products_images/38_6.jpeg",
+            "../products_images/38_7.jpeg"
+        ],
+        "brand": "thesirona",
+        "product": "Sirona Mini Travel Cartridge Razor For Women With Free Case| Hair Removal Razor, Replacable Cartridge, Potable & Travel friendly cartridge razor (Pack of 1))",
+        "sizes": [],
+        "category": "women_grooming",
+        "rating": 4.9,
+        "people": 70,
+        "discount_price": 413,
+        "original_price": 499,
+        "discount": "9%",
+        "product_detail": [
+            " Replaceable Cartridge",
+            "Stainless Steel Blade",
+            "Travel Friendly ",
+            "Arms & Underarms, Legs, Bikini Line"
+        ]
+    },
+    {
+        "id": 39,
+        "image": "../products_images/39.png",
+        "other_image": [
+            "../products_images/39.png",
+            "../products_images/39_1.png",
+            "../products_images/39_2.png",
+            "../products_images/39_3.png",
+            "../products_images/39_4.png",
+            "../products_images/39_5.png",
+            "../products_images/39_6.png",
+            "../products_images/39_7.png"
+        ],
+        "brand": "thesirona",
+        "product": "Sirona Reusable Bikini Hair Removal Razor for Women | Japanese precision shave | Nano-blade technology | Chromium & PTFE-coated | (Pack of 1)",
+        "sizes": [],
+        "category": "women_grooming",
+        "rating": 4.9,
+        "people": 70,
+        "discount_price": 149,
+        "original_price": 149,
+        "discount": "0%",
+        "product_detail": [
+            " Replaceable Cartridge",
+            "Stainless Steel Blade",
+            "Travel Friendly ",
+            "Arms & Underarms, Legs, Bikini Line"
+        ]
+    },
+    {
+        "id": 40,
+        "image": "../products_images/40.png",
+        "other_image": [
+            "../products_images/40.png",
+            "../products_images/40_1.png",
+            "../products_images/40_2.png",
+            "../products_images/40_3.png",
+            "../products_images/40_4.png",
+            "../products_images/40_5.png",
+            "../products_images/40_6.png",
+            "../products_images/40_7.png",
+            "../products_images/40_8.png",
+            "../products_images/40_9.png"
+        ],
+        "brand": "thesirona",
+        "product": "Sirona 6 In 1 Electric Razor for Women | Hair Removal Electric Trimmer for Facial, Underarms & Bikini Area, Battery Operated, 45 min Runtime",
+        "sizes": [],
+        "category": "women_grooming",
+        "rating": 4.9,
+        "people": 70,
+        "discount_price": 999,
+        "original_price": 1999,
+        "discount": "50%",
+        "product_detail": [
+            " Replaceable Cartridge",
+            "Stainless Steel Blade",
+            "Travel Friendly ",
+            "Arms & Underarms, Legs, Bikini Line"
+        ]
+    },
+    {
+        "id": 41,
+        "image": "../products_images/41.jpg",
+        "other_image": [
+            "../products_images/41.jpg",
+            "../products_images/41_1.jpg",
+            "../products_images/41_2.png",
+            "../products_images/41_3.png",
+            "../products_images/41_4.png",
+            "../products_images/41_5.png"
+        ],
+        "brand": "Stayfree",
+        "product": "Stayfree® Secure Cottony XL",
+        "sizes": [],
+        "category": "women_hygiene",
+        "rating": 4.6,
+        "people": 90,
+        "discount_price": 260,
+        "original_price": 300,
+        "discount": "20%",
+        "product_detail": [
+            "Cottony Soft Cover",
+            "Leak Lock Technology",
+            "Odour Control"
+        ]
+    },
+    {
+        "id": 42,
+        "image": "../products_images/42.jpg",
+        "other_image": [
+            "../products_images/42.jpg",
+            "../products_images/42_1.jpg",
+            "../products_images/42_2.png",
+            "../products_images/42_3.png",
+            "../products_images/42_4.png",
+            "../products_images/42_5.png",
+            "../products_images/42_6.png",
+            "../products_images/42_7.png"
+        ],
+        "brand": "Stayfree",
+        "product": "Stayfree® Dry-Max All Night",
+        "sizes": [],
+        "category": "women_hygiene",
+        "rating": 4.7,
+        "people": 390,
+        "discount_price": 483,
+        "original_price": 500,
+        "discount": "8%",
+        "product_detail": [
+            "Gel lock Technology",
+            "Odour Control",
+            "Dry-Max Coverl"
+        ]
+    },
+    {
+        "id": 43,
+        "image": "../products_images/43.webp",
+        "other_image": [
+            "../products_images/43.webp",
+            "../products_images/43_1.webp",
+            "../products_images/43_2.webp",
+            "../products_images/43_3.webp",
+            "../products_images/43_4.webp",
+            "../products_images/43_5.webp",
+            "../products_images/43_6.webp",
+            "../products_images/43_7.webp"
+        ],
+        "brand": "Domina",
+        "product": "Domina Female Condom (Pack of 2)",
+        "sizes": [],
+        "category": "women_hygiene",
+        "rating": 4.93,
+        "people": 29,
+        "discount_price": 199,
+        "original_price": 250,
+        "discount": "25%",
+        "product_detail": [
+            "Made With Natural Latex",
+            "Lavender Scented"
+        ]
+    },
+    {
+        "id": 44,
+        "image": "../products_images/44.webp",
+        "other_image": [
+            "../products_images/44.webp",
+            "../products_images/44_1.webp",
+            "../products_images/44_2.webp",
+            "../products_images/44_3.webp",
+            "../products_images/44_4.webp",
+            "../products_images/44_5.webp"
+        ],
+        "brand": "Domina",
+        "product": "Domina Raunchy (50ml))",
+        "sizes": [],
+        "category": "women_hygiene",
+        "rating": 3.6,
+        "people": 23,
+        "discount_price": 299,
+        "original_price": 311,
+        "discount": "5%",
+        "product_detail": [
+            "Natural Lubricant Gel",
+            "pH Balanced",
+            "Dermatologically Tested"
+        ]
+    },
+    {
+        "id": 45,
+        "image": "../products_images/45.webp",
+        "other_image": [
+            "../products_images/45.webp",
+            "../products_images/45_1.webp",
+            "../products_images/45_2.webp",
+            "../products_images/45_3.webp",
+            "../products_images/45_4.webp",
+            "../products_images/45_5.webp",
+            "../products_images/45_6.webp",
+            "../products_images/45_7.webp"
+        ],
+        "brand": "Domina",
+        "product": "Domina Discover Body Massager",
+        "sizes": [],
+        "category": "women_hygiene",
+        "rating": 3.6,
+        "people": 23,
+        "discount_price": 3999,
+        "original_price": 4200,
+        "discount": "5%",
+        "product_detail": [
+            "Rechargeable",
+            "Waterproof",
+            "Medical Grade Silicone"
+        ]
+    },
+    {
+        "id": 46,
+        "image": "../products_images/46.webp",
+        "other_image": [
+            "../products_images/46.webp",
+            "../products_images/46_1.webp",
+            "../products_images/46_2.webp",
+            "../products_images/46_3.webp",
+            "../products_images/46_4.webp",
+            "../products_images/46_5.webp",
+            "../products_images/46_6.webp"
+        ],
+        "brand": "Durex",
+        "product": "Durex Extra Time - 100 Condoms, 10s(Pack of 10)",
+        "sizes": [],
+        "category": "men_hygiene",
+        "rating": 5,
+        "people": 34,
+        "discount_price": 2045,
+        "original_price": 2690,
+        "discount": "24%",
+        "product_detail": [
+            "Durex Extra Time makes every sprint feel like a marathon.",
+            "Enjoy long lasting performances with Performa TM lubricant that makes him go on and on and on."
+        ]
+    },
+    {
+        "id": 47,
+        "image": "../products_images/47.webp",
+        "other_image": [
+            "../products_images/47.webp",
+            "../products_images/47_1.webp",
+            "../products_images/47_2.webp",
+            "../products_images/47_3.webp",
+            "../products_images/47_4.webp",
+            "../products_images/47_5.webp",
+            "../products_images/47_6.webp",
+            "../products_images/47_7.webp"
+        ],
+        "brand": "Lakme",
+        "product": "Lakme 9 to 5 Primer + Matte Lipstick - Blushing Nude MP7",
+        "sizes": [
+            "3.5ml",
+            "3.6ml",
+            "3.7ml",
+            "3.8ml",
+            "3.9ml",
+            "4ml"
+        ],
+        "category": "women_grooming",
+        "rating": 4.1,
+        "people": 12900,
+        "discount_price": 247,
+        "original_price": 550,
+        "discount": "55%",
+        "product_detail": [
+            " Colour Family Nude",
+            "Colour Shade NameBlushing Nude",
+            "CoveragFull Coverage",
+            "FeaturesHigh Color Payoff",
+            "FinishMatte",
+            "PreferenceFragrance-Free",
+            "SustainableRegular",
+            "TypeBullet Lipstick"
+        ]
+    },
+    {
+        "id": 48,
+        "image": "../products_images/48.avif",
+        "other_image": [
+            "../products_images/48.avif",
+            "../products_images/48_1.avif",
+            "../products_images/48_2.avif",
+            "../products_images/48_3.avif",
+            "../products_images/48_4.avif",
+            "../products_images/48_5.avif",
+            "../products_images/48_6.avif",
+            "../products_images/48_7.avif"
+        ],
+        "brand": "SUGAR",
+        "product": "Set of 4 Smudge Me Not Liquid Mini Lipstick 1.1 ml Each - Bold",
+        "sizes": [
+            "4.5ml"
+        ],
+        "category": "women_grooming",
+        "rating": 4.1,
+        "people": 7800,
+        "discount_price": 799,
+        "original_price": 999,
+        "discount": "20%",
+        "product_detail": [
+            "Colour Family Red and Maroon",
+            "Colour Shade NameBold Set",
+            "Coverage Medium Coverage",
+            "Features Smudge Proof",
+            "Finish   Matte",
+            "Preference   Cruelty-Free",
+            "Sustainable ",
+            "Type Liquid Lipstick"
+        ]
+    },
+    {
+        "id": 49,
+        "image": "../products_images/49.webp",
+        "other_image": [
+            "../products_images/49.webp",
+            "../products_images/49_1.webp",
+            "../products_images/49_2.webp",
+            "../products_images/49_3.webp",
+            "../products_images/49_4.webp",
+            "../products_images/49_5.webp",
+            "../products_images/49_6.webp",
+            "../products_images/49_7.webp",
+            "../products_images/49_8.webp"
+        ],
+        "brand": "LoveChild",
+        "product": "LoveChild Masaba - Meetha Jaljeera | Lush-Matte Mauve Pink Lip Crème, 3ml",
+        "sizes": [
+            "3ml"
+        ],
+        "category": "women_grooming",
+        "rating": 4.1,
+        "people": 87,
+        "discount_price": 808,
+        "original_price": 950,
+        "discount": "15%",
+        "product_detail": [
+            "Colour Family Red and Maroon",
+            "Colour Shade NameBold Set",
+            "Coverage Medium Coverage",
+            "Features Smudge Proof",
+            "Finish   Matte",
+            "Preference   Cruelty-Free",
+            "Sustainable "
+        ]
+    },
+    {
+        "id": 50,
+        "image": "../products_images/50.avif",
+        "other_image": [
+            "../products_images/50.avif",
+            "../products_images/50_1.avif",
+            "../products_images/50_2.avif",
+            "../products_images/50_3.avif",
+            "../products_images/50_4.avif",
+            "../products_images/50_5.avif",
+            "../products_images/50_6.avif",
+            "../products_images/50_7.avif"
+        ],
+        "brand": "Nykaa",
+        "product": "Nykaa Rock the line Kajal Eyeliner Pencil - Jet Black",
+        "sizes": [],
+        "category": "women_grooming",
+        "rating": 4.4,
+        "people": 26152,
+        "discount_price": 169,
+        "original_price": 199,
+        "discount": "15%",
+        "product_detail": [
+            "Intense Color: The deep, jet-black shade adds instant definition to your eyes, making them pop and stand out.",
+            " Smooth Application: The creamy texture glides effortlessly onto the eyelids, allowing for precise application without tugging or pulling.",
+            "Long-Lasting: Formulated to stay put for hours without smudging or fading, ensuring your eye makeup stays flawless from morning till night.",
+            "Versatile Use: Whether you prefer a subtle, everyday look or a sultry, smokey eye, this kajal eyeliner pencil can be easily blended and layered to achieve your desired effect."
+        ]
+    },
+    {
+        "id": 51,
+        "image": "../products_images/51.webp",
+        "other_image": [
+            "../products_images/51.webp",
+            "../products_images/51_1.webp",
+            "../products_images/51_2.webp",
+            "../products_images/51_3.webp",
+            "../products_images/51_4.webp",
+            "../products_images/51_5.webp",
+            "../products_images/51_6.webp"
+        ],
+        "brand": "RENEE",
+        "product": "RENEE Midnight Kohl Pencil 1.5 Gm ",
+        "sizes": [],
+        "category": "women_grooming",
+        "rating": 5.0,
+        "people": 52,
+        "discount_price": 399,
+        "original_price": 450,
+        "discount": "11%",
+        "product_detail": [
+            "Intense Color: The deep, jet-black shade adds instant definition to your eyes, making them pop and stand out.",
+            " Smooth Application: The creamy texture glides effortlessly onto the eyelids, allowing for precise application without tugging or pulling.",
+            "Long-Lasting: Formulated to stay put for hours without smudging or fading, ensuring your eye makeup stays flawless from morning till night.",
+            "Versatile Use: Whether you prefer a subtle, everyday look or a sultry, smokey eye, this kajal eyeliner pencil can be easily blended and layered to achieve your desired effect."
+        ]
+    },
+    {
+        "id": 52,
+        "image": "../products_images/52.jpg",
+        "other_image": [
+            "../products_images/52.jpg",
+            "../products_images/52_1.jpg"
+        ],
+        "brand": "JCPL",
+        "product": "JCPL Donald Ceramic Milk & Coffee Mug, 330ml, 1 piece, ZS-DB-07",
+        "sizes": [],
+        "category": "grocery",
+        "rating": 5.0,
+        "people": 52,
+        "discount_price": 237,
+        "original_price": 299,
+        "discount": "21%",
+        "product_detail": [
+            "Microwave/Dishwasher Safe",
+            "Highly chip resistant and durable, lead and cadmium free",
+            "Color: Multicolour",
+            "Material: Ceramic",
+            "Package Contents: 1 - Milk Mug"
+        ]
+    }
+]

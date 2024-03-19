@@ -265,8 +265,61 @@ import l9 from '../images/l9.webp'
 import l10 from '../images/l10.webp'
 import l11 from '../images/l11.avif'
 import sa1 from '../images/sa1.avif'
-
-
+import sa2 from '../images/sa2.avif'
+import sa3 from '../images/sa3.avif'
+import sa4 from '../images/sa4.avif'
+import sa5 from '../images/sa5.avif'
+import sa6 from '../images/sa6.webp'
+import sa7 from '../images/sa7.avif'
+import sa8 from '../images/sa8.avif'
+import za1 from '../images/za1.avif'
+import za2 from '../images/za2.jpg'
+import za3 from '../images/za3.avif'
+import za4 from '../images/za4.jpg'
+import za5 from '../images/za5.jpg'
+import za6 from '../images/za6.avif'
+import za7 from '../images/za7.avif'
+import za8 from '../images/za8.jpg'
+import t1 from '../images/t1.gif'
+import t2 from '../images/t2.avif'
+import t3 from '../images/t3.avif'
+import t4 from '../images/t4.avif'
+import t5 from '../images/t5.avif'
+import t6 from '../images/t6.avif'
+import t7 from '../images/t7.avif'
+import ha1 from '../images/ha1.avif'
+import ha2 from '../images/ha2.avif'
+import ha3 from '../images/ha3.avif'
+import ha4 from '../images/ha4.avif'
+import ha5 from '../images/ha5.avif'
+import ha6 from '../images/ha6.avif'
+import ha7 from '../images/ha7.avif'
+import ss1 from '../images/ss1.avif'
+import ads1 from '../images/ads1.avif'
+import ads2 from '../images/ads2.avif'
+import ads3 from '../images/ads3.avif'
+import ads4 from '../images/ads4.avif'
+import ads5 from '../images/ads5.avif'
+import ads6 from '../images/ads6.avif'
+import ads7 from '../images/ads7.avif'
+import ads8 from '../images/ads8.avif'
+import ads9 from '../images/ads9.avif'
+import ads10 from '../images/ads10.avif'
+import ads11 from '../images/ads11.avif'
+import ads12 from '../images/ads12.avif'
+import ads13 from '../images/ads13.avif'
+import ads14 from '../images/ads14.avif'
+import ads15 from '../images/ads15.avif'
+import ads16 from '../images/ads16.avif'
+import ads17 from '../images/ads17.avif'
+import ads18 from '../images/ads18.avif'
+import ads19 from '../images/ads19.avif'
+import ads20 from '../images/ads20.avif'
+import ads21 from '../images/ads21.avif'
+import ads22 from '../images/ads22.avif'
+import end1 from '../images/end1.avif'
+import end2 from '../images/end2.avif'
+import app_store from '../images/app_store.svg'
 
 
 
@@ -281,19 +334,19 @@ const Content = () => {
     const [seconds, setSeconds] = useState(0);
     const settings = {
         autoplay: false,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 2000,
         dots: false,
         arrows: false,
         infinite: false,
         speed: 500,
-        slidesToShow: 1.5,
-        slidesToScroll: 1.5,
+        slidesToShow: 1.75,
+        slidesToScroll: 1.75,
 
     };
 
     const settings1 = {
         autoplay: false,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 2000,
         dots: false,
         arrows: false,
         infinite: false,
@@ -301,6 +354,17 @@ const Content = () => {
         slidesToShow: 2.5,
         slidesToScroll: 2,
 
+    };
+
+    const settings2 = {
+        dots: false,
+        infinite: true,
+        onhover: true,
+        speed: 2000, // Interval in milliseconds
+        autoplay: true,
+        autoplaySpeed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
     };
 
     useEffect(() => {
@@ -324,6 +388,8 @@ const Content = () => {
     }, [minutes, seconds]);
 
     return (
+
+
         <div className='content'>
             <div className='headline'>
 
@@ -355,77 +421,56 @@ const Content = () => {
             </div>
 
             <div>
-                <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
-                    <div className="carousel-inner">
-                        <div className="carousel-item active" data-bs-interval="3000">
-                            <img src={c1_1} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={c1_2} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={c1_3} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={c1_4} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={c1_5} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={c1_6} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={c1_7} className="d-block w-100" alt="..." />
-                        </div>
+                <Slider {...settings2} >
+                    <div className="carousel-item active" >
+                        <img src={c1_1} className="d-block w-100" alt="..." />
                     </div>
-                    <div className="carousel-indicators">
-                        <button data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" className="active"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="5"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="6"></button>
+                    <div className="carousel-item" >
+                        <img src={c1_2} className="d-block w-100" alt="..." />
                     </div>
-                </div>
+                    <div className="carousel-item" data-bs-interval="3000">
+                        <img src={c1_3} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={c1_4} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={c1_5} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={c1_6} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={c1_7} className="d-block w-100" alt="..." />
+                    </div>
+                </Slider>
+
             </div>
 
             <div className='cashabck_offer'>
-                <div id="carouselExampleAutoplaying2" className="carousel slide" data-bs-ride="carousel">
-                    <div className="carousel-inner">
-                        <div className="carousel-item active" data-bs-interval="3000">
-                            <img src={cashbank} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={cashbank1} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={cashbank2} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={cashbank3} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={cashbank4} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={cashbank5} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={cashbank6} className="d-block w-100" alt="..." />
-                        </div>
+                <Slider {...settings2} >
+                    <div className="carousel-item active" >
+                        <img src={cashbank} className="d-block w-100" alt="..." />
                     </div>
-                    <div className="carousel-indicators">
-                        <button data-bs-target="#carouselExampleAutoplaying2" data-bs-slide-to="0" className="active"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying2" data-bs-slide-to="1"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying2" data-bs-slide-to="2"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying2" data-bs-slide-to="3"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying2" data-bs-slide-to="4"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying2" data-bs-slide-to="5"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying2" data-bs-slide-to="6"></button>
+                    <div className="carousel-item" >
+                        <img src={cashbank1} className="d-block w-100" alt="..." />
                     </div>
-                </div>
+                    <div className="carousel-item" data-bs-interval="3000">
+                        <img src={cashbank2} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={cashbank3} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={cashbank4} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={cashbank5} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={cashbank6} className="d-block w-100" alt="..." />
+                    </div>
+                </Slider>
             </div>
 
             <div className="offer">
@@ -458,40 +503,29 @@ const Content = () => {
 
             <div className='sponsers'>
                 <img src={fashion3} alt="fashion" />
-                <div id="carouselExampleAutoplaying3" className="carousel slide" data-bs-ride="carousel">
-                    <div className="carousel-inner">
-                        <div className="carousel-item active" data-bs-interval="3000">
-                            <img src={c11} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={c12} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={c13} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={c14} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={c15} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={c16} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={c17} className="d-block w-100" alt="..." />
-                        </div>
+                <Slider {...settings2}>
+                    <div className="carousel-item active" >
+                        <img src={c11} className="d-block w-100" alt="..." />
                     </div>
-                    <div className="carousel-indicators">
-                        <button data-bs-target="#carouselExampleAutoplaying3" data-bs-slide-to="0" className="active"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying3" data-bs-slide-to="1"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying3" data-bs-slide-to="2"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying3" data-bs-slide-to="3"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying3" data-bs-slide-to="4"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying3" data-bs-slide-to="5"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying3" data-bs-slide-to="6"></button>
+                    <div className="carousel-item" >
+                        <img src={c12} className="d-block w-100" alt="..." />
                     </div>
-                </div>
+                    <div className="carousel-item" >
+                        <img src={c13} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={c14} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={c15} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={c16} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={c17} className="d-block w-100" alt="..." />
+                    </div>
+                </Slider>
                 <div className='trust'>
                     <img src={trust} alt="trust" /></div>
             </div>
@@ -499,34 +533,24 @@ const Content = () => {
 
             <div className='fashion_steals'>
                 <img src={fashion_steals} alt="..." />
-                <div id="carouselExampleAutoplaying4" className="carousel slide" data-bs-ride="carousel">
-                    <div className="carousel-inner">
-                        <div className="carousel-item active" data-bs-interval="3000">
-                            <img src={f1} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={f2} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={f3} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={f4} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={f5} className="d-block w-100" alt="..." />
-                        </div>
-
+                <Slider {...settings2}>
+                    <div className="carousel-item active" >
+                        <img src={f1} className="d-block w-100" alt="..." />
                     </div>
-                    <div className="carousel-indicators">
-                        <button data-bs-target="#carouselExampleAutoplaying4" data-bs-slide-to="0" className="active"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying4" data-bs-slide-to="1"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying4" data-bs-slide-to="2"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying4" data-bs-slide-to="3"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying4" data-bs-slide-to="4"></button>
-
+                    <div className="carousel-item" >
+                        <img src={f2} className="d-block w-100" alt="..." />
                     </div>
-                </div>
+                    <div className="carousel-item" >
+                        <img src={f3} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={f4} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={f5} className="d-block w-100" alt="..." />
+                    </div>
+
+                </Slider>
             </div>
 
             <div className='deals'>
@@ -534,34 +558,23 @@ const Content = () => {
                 <img src={discount} alt="..." />
                 <img src={deals} alt="..." />
 
-                <div id="carouselExampleAutoplaying5" className="carousel slide" data-bs-ride="carousel">
-                    <div className="carousel-inner">
-                        <div className="carousel-item active" data-bs-interval="3000">
-                            <img src={d1} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={d2} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={d3} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={d4} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={d5} className="d-block w-100" alt="..." />
-                        </div>
-
-
+                <Slider {...settings2}>
+                    <div className="carousel-item active" >
+                        <img src={d1} className="d-block w-100" alt="..." />
                     </div>
-                    <div className="carousel-indicators">
-                        <button data-bs-target="#carouselExampleAutoplaying5" data-bs-slide-to="0" className="active"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying5" data-bs-slide-to="1"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying5" data-bs-slide-to="2"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying5" data-bs-slide-to="3"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying5" data-bs-slide-to="4"></button>
+                    <div className="carousel-item" >
+                        <img src={d2} className="d-block w-100" alt="..." />
                     </div>
-                </div>
+                    <div className="carousel-item" >
+                        <img src={d3} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={d4} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={d5} className="d-block w-100" alt="..." />
+                    </div>
+                </Slider>
             </div>
 
             <div className='sponsors_deals'>
@@ -652,42 +665,29 @@ const Content = () => {
             <div className='star'>
                 <img src={last_call} alt="..." />
 
-                <div id="carouselExampleAutoplaying8" className="carousel slide" data-bs-ride="carousel">
-                    <div className="carousel-inner">
-                        <div className="carousel-item active" data-bs-interval="3000">
-                            <img src={mens_w} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={women_w} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={women_e} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={tranding_e} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={kidsware} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={a_m} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={h_d} className="d-block w-100" alt="..." />
-                        </div>
-
-
+                <Slider {...settings2}>
+                    <div className="carousel-item active" >
+                        <img src={mens_w} className="d-block w-100" alt="..." />
                     </div>
-                    <div className="carousel-indicators">
-                        <button data-bs-target="#carouselExampleAutoplaying8" data-bs-slide-to="0" className="active"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying8" data-bs-slide-to="1"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying8" data-bs-slide-to="2"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying8" data-bs-slide-to="3"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying8" data-bs-slide-to="4"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying8" data-bs-slide-to="5"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying8" data-bs-slide-to="6"></button>
+                    <div className="carousel-item" >
+                        <img src={women_w} className="d-block w-100" alt="..." />
                     </div>
-                </div>
+                    <div className="carousel-item" >
+                        <img src={women_e} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={tranding_e} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={kidsware} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={a_m} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={h_d} className="d-block w-100" alt="..." />
+                    </div>
+                </Slider>
 
             </div>
 
@@ -796,46 +796,32 @@ const Content = () => {
 
                 </Slider>
 
-                <div id="carouselExampleAutoplaying9" className="carousel slide" data-bs-ride="carousel">
-                    <div className="carousel-inner">
-                        <div className="carousel-item active" data-bs-interval="3000">
-                            <img src={z7} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={z8} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={z9} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={z10} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={z11} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={z12} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={z13} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={z14} className="d-block w-100" alt="..." />
-                        </div>
-
-
+                <Slider>
+                    <div className="carousel-item active" >
+                        <img src={z7} className="d-block w-100" alt="..." />
                     </div>
-                    <div className="carousel-indicators">
-                        <button data-bs-target="#carouselExampleAutoplaying9" data-bs-slide-to="0" className="active"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying9" data-bs-slide-to="1"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying9" data-bs-slide-to="2"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying9" data-bs-slide-to="3"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying9" data-bs-slide-to="4"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying9" data-bs-slide-to="5"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying9" data-bs-slide-to="6"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying9" data-bs-slide-to="7"></button>
+                    <div className="carousel-item" >
+                        <img src={z8} className="d-block w-100" alt="..." />
                     </div>
-                </div>
+                    <div className="carousel-item" >
+                        <img src={z9} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={z10} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={z11} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={z12} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={z13} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={z14} className="d-block w-100" alt="..." />
+                    </div>
+                </Slider>
                 <div className='beautyall'>
                     <img src={z15} alt="..." />
                     <Slider {...settings1}>
@@ -875,103 +861,186 @@ const Content = () => {
                     <div> <img src={z38} alt="..." /></div>
                 </div>
                 <img src={z39} alt="..." />
-                <div id="carouselExampleAutoplaying0" className="carousel slide" data-bs-ride="carousel">
-                    <div className="carousel-inner">
-                        <div className="carousel-item active" data-bs-interval="3000">
-                            <img src={z40} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={z41} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={z42} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="3000">
-                            <img src={z43} className="d-block w-100" alt="..." />
-                        </div>
+                <Slider {...settings2}>
+                    <div className="carousel-item active" >
+                        <img src={z40} className="d-block w-100" alt="..." />
                     </div>
-                    <div className="carousel-indicators">
-                        <button data-bs-target="#carouselExampleAutoplaying0" data-bs-slide-to="0" className="active"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying0" data-bs-slide-to="1"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying0" data-bs-slide-to="2"></button>
-                        <button data-bs-target="#carouselExampleAutoplaying0" data-bs-slide-to="3"></button>
+                    <div className="carousel-item" >
+                        <img src={z41} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={z42} className="d-block w-100" alt="..." />
+                    </div>
+                    <div className="carousel-item" >
+                        <img src={z43} className="d-block w-100" alt="..." />
+                    </div>
+                </Slider>
+                <div className='gift'>
+                    <img src={gift} alt="..." />
+                    <img src={w1} alt="..." />
+                    <Slider {...settings1}>
+                        <div><img src={w2} alt="..." /></div>
+                        <div><img src={w3} alt="..." /></div>
+                        <div><img src={w4} alt="..." /></div>
+                        <div><img src={w5} alt="..." /></div>
+                        <div><img src={w6} alt="..." /></div>
+                        <div><img src={w7} alt="..." /></div>
+                        <div><img src={w8} alt="..." /></div>
+                        <div><img src={w9} alt="..." /></div>
+                    </Slider>
+                    <img src={e1} alt="..." />
+                    <Slider {...settings1}>
+                        <div><img src={e2} alt="..." /></div>
+                        <div><img src={e3} alt="..." /></div>
+                        <div><img src={e4} alt="..." /></div>
+                        <div><img src={e5} alt="..." /></div>
+                        <div><img src={e6} alt="..." /></div>
+                        <div><img src={e7} alt="..." /></div>
+                        <div><img src={e8} alt="..." /></div>
+                        <div><img src={e9} alt="..." /></div>
+                        <div><img src={e10} alt="..." /></div>
+                    </Slider>
+                    <img src={fa1} alt="..." />
+                    <Slider {...settings1}>
+                        <div><img src={fa2} alt="..." /></div>
+                        <div><img src={fa3} alt="..." /></div>
+                        <div><img src={fa4} alt="..." /></div>
+                        <div><img src={fa5} alt="..." /></div>
+                        <div><img src={fa6} alt="..." /></div>
+                        <div><img src={fa7} alt="..." /></div>
+                        <div><img src={fa8} alt="..." /></div>
+
+                    </Slider>
+                    <img src={ba1} alt="..." />
+                    <Slider {...settings}>
+                        <div><img src={ba2} alt="..." /></div>
+                        <div><img src={ba3} alt="..." /></div>
+                        <div><img src={ba4} alt="..." /></div>
+                        <div><img src={ba5} alt="..." /></div>
+                        <div><img src={ba6} alt="..." /></div>
+                        <div><img src={ba8} alt="..." /></div>
+                        <div><img src={ba9} alt="..." /></div>
+
+                    </Slider>
+                    <img src={ka1} alt="..." />
+                    <Slider {...settings1}>
+                        <div><img src={ka5} alt="..." /></div>
+                        <div><img src={ka6} alt="..." /></div>
+                        <div><img src={ka2} alt="..." /></div>
+                        <div><img src={ka3} alt="..." /></div>
+                        <div><img src={ka4} alt="..." /></div>
+                    </Slider>
+                    <img src={l1} alt="..." />
+                    <Slider {...settings}>
+                        <div><img src={l2} alt="..." /></div>
+                        <div><img src={l3} alt="..." /></div>
+                        <div><img src={l4} alt="..." /></div>
+                        <div><img src={l5} alt="..." /></div>
+                        <div><img src={l6} alt="..." /></div>
+                        <div><img src={l7} alt="..." /></div>
+                        <div><img src={l8} alt="..." /></div>
+                        <div><img src={l9} alt="..." /></div>
+                        <div><img src={l10} alt="..." /></div>
+                        <div><img src={l11} alt="..." /></div>
+                    </Slider>
+                    <img src={sa1} alt="..." />
+                    <Slider {...settings}>
+                        <div><img src={sa2} alt="..." /></div>
+                        <div><img src={sa3} alt="..." /></div>
+                        <div><img src={sa4} alt="..." /></div>
+                        <div><img src={sa5} alt="..." /></div>
+                        <div><img src={sa6} alt="..." /></div>
+                        <div><img src={sa7} alt="..." /></div>
+                        <div><img src={sa8} alt="..." /></div>
+                    </Slider>
+                    <img src={za1} alt="..." />
+                    <Slider {...settings}>
+                        <div><img src={za2} alt="..." /></div>
+                        <div><img src={za3} alt="..." /></div>
+                        <div><img src={za4} alt="..." /></div>
+                        <div><img src={za5} alt="..." /></div>
+                        <div><img src={za6} alt="..." /></div>
+                        <div><img src={za7} alt="..." /></div>
+                        <div><img src={za8} alt="..." /></div>
+                    </Slider>
+                    <img src={t1} alt="..." />
+                    <Slider {...settings}>
+                        <div><img src={t2} alt="..." /></div>
+                        <div><img src={t3} alt="..." /></div>
+                        <div><img src={t4} alt="..." /></div>
+                        <div><img src={t5} alt="..." /></div>
+                        <div><img src={t6} alt="..." /></div>
+                        <div><img src={t7} alt="..." /></div>
+                    </Slider>
+                    <img src={ha1} alt="..." />
+                    <Slider {...settings1}>
+                        <div><img src={ha2} alt="..." /></div>
+                        <div><img src={ha3} alt="..." /></div>
+                        <div><img src={ha4} alt="..." /></div>
+                        <div><img src={ha5} alt="..." /></div>
+                        <div><img src={ha6} alt="..." /></div>
+                        <div><img src={ha7} alt="..." /></div>
+                    </Slider>
+                    <img src={ss1} alt="..." />
+                    <img src={ads1} alt="..." />
+                    <div className='sponsors_items'>
+                        <div><img src={ads2} alt="..." /></div>
+                        <div><img src={ads3} alt="..." /></div>
+                        <div><img src={ads4} alt="..." /></div>
+                    </div>
+                    <div className='sponsors_items'>
+                        <div><img src={ads5} alt="..." /></div>
+                        <div><img src={ads6} alt="..." /></div>
+                        <div><img src={ads7} alt="..." /></div>
+                    </div>
+                    <div className='sponsors_items'>
+                        <div><img src={ads8} alt="..." /></div>
+                        <div><img src={ads9} alt="..." /></div>
+                        <div><img src={ads10} alt="..." /></div>
+                    </div>
+                    <div className='sponsors_items'>
+                        <div><img src={ads11} alt="..." /></div>
+                        <div><img src={ads12} alt="..." /></div>
+                        <div><img src={ads13} alt="..." /></div>
+                    </div>
+                    <div className='sponsors_items'>
+                        <div><img src={ads14} alt="..." /></div>
+                        <div><img src={ads15} alt="..." /></div>
+                        <div><img src={ads16} alt="..." /></div>
+                    </div>
+                    <div className='sponsors_items'>
+                        <div><img src={ads17} alt="..." /></div>
+                        <div><img src={ads18} alt="..." /></div>
+                        <div><img src={ads19} alt="..." /></div>
+                    </div>
+                    <div className='sponsors_items'>
+                        <div><img src={ads20} alt="..." /></div>
+                        <div><img src={ads21} alt="..." /></div>
+                        <div><img src={ads22} alt="..." /></div>
+                    </div>
+                    <img src={end1} alt="..." />
+                    <img src={end2} alt="..." />
+                </div>
+                <div className='apps'>
+                    <p>Experience the AJIO mobile app</p>
+                   <div> <img src={app_store} alt="..." /></div>
+                </div>
+                <div className='service'>
+                    <strong>Assured Quality | 100% Handpicked | Easy Exchange</strong>
+                    <div className='s1'>
+                        <div className='about'>
+                            About Ajio
+                        </div>
+                        <div className='more'>
+                            +more
+                        </div>
 
                     </div>
                 </div>
 
-            </div>
-            <div className='gift'>
-                <img src={gift} alt="..." />
-                <img src={w1} alt="..." />
-                <Slider {...settings1}>
-                    <div><img src={w2} alt="..." /></div>
-                    <div><img src={w3} alt="..." /></div>
-                    <div><img src={w4} alt="..." /></div>
-                    <div><img src={w5} alt="..." /></div>
-                    <div><img src={w6} alt="..." /></div>
-                    <div><img src={w7} alt="..." /></div>
-                    <div><img src={w8} alt="..." /></div>
-                    <div><img src={w9} alt="..." /></div>
-                </Slider>
-                <img src={e1} alt="..." />
-                <Slider {...settings1}>
-                    <div><img src={e2} alt="..." /></div>
-                    <div><img src={e3} alt="..." /></div>
-                    <div><img src={e4} alt="..." /></div>
-                    <div><img src={e5} alt="..." /></div>
-                    <div><img src={e6} alt="..." /></div>
-                    <div><img src={e7} alt="..." /></div>
-                    <div><img src={e8} alt="..." /></div>
-                    <div><img src={e9} alt="..." /></div>
-                    <div><img src={e10} alt="..." /></div>
-                </Slider>
-                <img src={fa1} alt="..." />
-                <Slider {...settings1}>
-                    <div><img src={fa2} alt="..." /></div>
-                    <div><img src={fa3} alt="..." /></div>
-                    <div><img src={fa4} alt="..." /></div>
-                    <div><img src={fa5} alt="..." /></div>
-                    <div><img src={fa6} alt="..." /></div>
-                    <div><img src={fa7} alt="..." /></div>
-                    <div><img src={fa8} alt="..." /></div>
-
-                </Slider>
-                <img src={ba1} alt="..." />
-                <Slider {...settings}>
-                    <div><img src={ba2} alt="..." /></div>
-                    <div><img src={ba3} alt="..." /></div>
-                    <div><img src={ba4} alt="..." /></div>
-                    <div><img src={ba5} alt="..." /></div>
-                    <div><img src={ba6} alt="..." /></div>
-                    <div><img src={ba8} alt="..." /></div>
-                    <div><img src={ba9} alt="..." /></div>
-
-                </Slider>
-                <img src={ka1} alt="..." />
-                <Slider {...settings1}>
-                     <div><img src={ka5} alt="..." /></div>
-                    <div><img src={ka6} alt="..." /></div>
-                    <div><img src={ka2} alt="..." /></div>
-                    <div><img src={ka3} alt="..." /></div>
-                    <div><img src={ka4} alt="..." /></div>
-             </Slider>
-             <img src={l1} alt="..." />
-                <Slider {...settings1}>
-                     <div><img src={l2} alt="..." /></div>
-                    <div><img src={l3} alt="..." /></div>
-                    <div><img src={l4} alt="..." /></div>
-                    <div><img src={l5} alt="..." /></div>
-                    <div><img src={l6} alt="..." /></div>
-                    <div><img src={l7} alt="..." /></div>
-                    <div><img src={l8} alt="..." /></div>
-                    <div><img src={l9} alt="..." /></div>
-                    <div><img src={l10} alt="..." /></div>
-                    <div><img src={l11} alt="..." /></div>
-             </Slider>
-             <img src={sa1} alt="..." />
-            </div>
-
+            </div >
         </div>
+
     )
 }
 
