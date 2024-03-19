@@ -17,6 +17,7 @@ import Model from './Model';
 
 function SizeBox({ size, isSelected, onClick }) {
   return (
+
     <div
       className={`size-box ${isSelected ? 'selected' : ''}`}
       onClick={onClick}
@@ -31,6 +32,7 @@ function DetailsProduct() {
   const [data, setData] = useState([]);
   const [allData, setAllData] = useState([]);
   const [selected, setSelected] = useState(null);
+  const [Size, setSize] = useState(null)
   const [isOpen, setIsOpen] = useState(false);
 
   const openModal = () => {
@@ -50,7 +52,8 @@ function DetailsProduct() {
         setAllData(jsonData)
         const filteredData = jsonData.filter(item => item.id === parseInt(id));
         setData(filteredData);
-        
+        setSize(filteredData[0].sizes[0])
+
       } catch (error) {
         console.error('Fetch error:', error);
       }
@@ -68,7 +71,10 @@ function DetailsProduct() {
 
   const handleSizeClick = (size) => {
     setSelected(size === selected ? null : size);
+    setSize(size)
   };
+
+  
 
   return (
     <div className='details'>
@@ -145,12 +151,14 @@ function DetailsProduct() {
               <div className="size-container">
                 {data[0].sizes.length !== 0 ? (
                   data[0].sizes.map((size, index) => (
+
                     <SizeBox
                       key={index}
                       size={size}
                       isSelected={size === selected}
                       onClick={() => handleSizeClick(size)}
                     />
+
                   ))
                 ) : (
                   <p>No sizes available</p>
@@ -187,7 +195,7 @@ function DetailsProduct() {
             <div className='add_carts'>
               <div className='upload'><img src={upload} alt="..." /></div>
               <div className='upload'><img src={like} alt="..." /></div>
-              <div className='cart'><NavLink  to={`/cart/${data[0].id}`}><img src={cart1} alt="..." /><strong> Buy Now</strong></NavLink></div>
+              <div className='cart'><NavLink to={`/cart/${data[0].id}?size=${Size}`}><img src={cart1} alt="..." /><strong> Buy Now</strong></NavLink></div>
             </div>
             <div className='more_products'>
               <div><strong>More Products</strong></div>
