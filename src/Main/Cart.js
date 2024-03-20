@@ -156,7 +156,7 @@ const Cart = () => {
                 <span>View Details</span>
               </div>
               <div className='final_order'>
-                <button>Place Order</button>
+              <NavLink to={`/address/${item.id}`}>Place Order</NavLink>
               </div>
             </div>
           </div>

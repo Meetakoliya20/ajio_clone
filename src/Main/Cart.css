@@ -278,10 +278,12 @@ span strong
     flex-basis: 60%;
 }
 
-.final_order button
+.final_order a 
 {
     width: 100%;
     background-color: black;
+    display: flex;
+    justify-content: center;
     border-radius: 5px;
     color: #fff;
     border: none;
