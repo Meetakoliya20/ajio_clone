@@ -1,5 +1,6 @@
 import React from 'react'
 import { useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css'
@@ -391,92 +392,138 @@ const Content = () => {
 
 
         <div className='content'>
+
             <div className='headline'>
 
                 <div className='high'>
-                    <img src={img1} alt="img" />
+                    <NavLink to="/products">
+                        <img src={img1} alt="img" /> </NavLink>
                 </div>
 
                 <div className='high'>
-                    <img src={img2} alt="img" />
+                    <NavLink to="/products">
+                        <img src={img2} alt="img" /> </NavLink>
                 </div>
 
                 <div className='high'>
-                    <img src={img3} alt="img" />
+                    <NavLink to="/products">
+                        <img src={img3} alt="img" /> </NavLink>
                 </div>
 
                 <div className='high'>
-                    <img src={img4} alt="img" />
+                    <NavLink to="/products">
+                        <img src={img4} alt="img" /> </NavLink>
                 </div>
 
                 <div className='high'>
-                    <img src={img5} alt="img" />
-
+                    <NavLink to="/products">
+                        <img src={img5} alt="img" />
+                    </NavLink>
                 </div>
 
             </div>
 
             <div className='banner-details'>
-                <img src={marquee} alt="offer" />
+                <NavLink to="/products">
+                    <img src={marquee} alt="offer" />
+                </NavLink>
             </div>
 
             <div>
                 <Slider {...settings2} >
+
                     <div className="carousel-item active" >
-                        <img src={c1_1} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={c1_1} className="d-block w-100" alt="..." />
+                        </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={c1_2} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={c1_2} className="d-block w-100" alt="..." />
+                        </NavLink>
                     </div>
                     <div className="carousel-item" data-bs-interval="3000">
-                        <img src={c1_3} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={c1_3} className="d-block w-100" alt="..." />
+                        </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={c1_4} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={c1_4} className="d-block w-100" alt="..." />
+                        </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={c1_5} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={c1_5} className="d-block w-100" alt="..." />
+                        </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={c1_6} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={c1_6} className="d-block w-100" alt="..." />
+                        </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={c1_7} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={c1_7} className="d-block w-100" alt="..." />
+                        </NavLink>
                     </div>
+
                 </Slider>
 
             </div>
 
             <div className='cashabck_offer'>
+
                 <Slider {...settings2} >
+
                     <div className="carousel-item active" >
+
                         <img src={cashbank} className="d-block w-100" alt="..." />
+
                     </div>
                     <div className="carousel-item" >
+
                         <img src={cashbank1} className="d-block w-100" alt="..." />
+
                     </div>
                     <div className="carousel-item" data-bs-interval="3000">
+
                         <img src={cashbank2} className="d-block w-100" alt="..." />
+
                     </div>
                     <div className="carousel-item" >
+
                         <img src={cashbank3} className="d-block w-100" alt="..." />
+
                     </div>
                     <div className="carousel-item" >
+
                         <img src={cashbank4} className="d-block w-100" alt="..." />
+
                     </div>
                     <div className="carousel-item" >
+
                         <img src={cashbank5} className="d-block w-100" alt="..." />
+
                     </div>
                     <div className="carousel-item" >
+
                         <img src={cashbank6} className="d-block w-100" alt="..." />
+
                     </div>
+
                 </Slider>
+
             </div>
 
             <div className="offer">
-                <img src={offer1} alt="offer" />
-                <img src={offer2} alt="offer" />
+                <NavLink to="/products">
+                    <img src={offer1} alt="offer" />
 
+                </NavLink>
+                <NavLink to="/products">
+                    <img src={offer2} alt="offer" />
+                </NavLink>
             </div>
 
             <div id="timer">
@@ -496,38 +543,64 @@ const Content = () => {
 
 
             <div className='fashion'>
-                <img src={fashion1} alt="fashion" />
-                <img src={fashion2} alt="fashion" />
+                <NavLink to="/products">
+                    <img src={fashion1} alt="fashion" />
 
+                </NavLink>
+                <NavLink to="/products">
+
+                    <img src={fashion2} alt="fashion" />
+                </NavLink>
             </div>
 
             <div className='sponsers'>
                 <img src={fashion3} alt="fashion" />
                 <Slider {...settings2}>
+
                     <div className="carousel-item active" >
-                        <img src={c11} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={c11} className="d-block w-100" alt="..." />
+                        </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={c12} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={c12} className="d-block w-100" alt="..." />
+                        </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={c13} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={c13} className="d-block w-100" alt="..." />
+                        </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={c14} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={c14} className="d-block w-100" alt="..." />
+                        </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={c15} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={c15} className="d-block w-100" alt="..." />
+                        </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={c16} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={c16} className="d-block w-100" alt="..." />
+                        </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={c17} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={c17} className="d-block w-100" alt="..." />
+                        </NavLink>
                     </div>
+
+
                 </Slider>
+
                 <div className='trust'>
-                    <img src={trust} alt="trust" /></div>
+                    <NavLink to="/products">
+                        <img src={trust} alt="trust" />
+                    </NavLink></div>
+
             </div>
 
 
@@ -535,44 +608,62 @@ const Content = () => {
                 <img src={fashion_steals} alt="..." />
                 <Slider {...settings2}>
                     <div className="carousel-item active" >
-                        <img src={f1} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={f1} className="d-block w-100" alt="..." />
+                        </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={f2} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={f2} className="d-block w-100" alt="..." />
+                        </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={f3} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={f3} className="d-block w-100" alt="..." />
+                        </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={f4} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={f4} className="d-block w-100" alt="..." />
+                        </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={f5} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={f5} className="d-block w-100" alt="..." />
+                        </NavLink>
                     </div>
 
                 </Slider>
             </div>
 
             <div className='deals'>
-                <img src={delivery} alt="..." />
-                <img src={discount} alt="..." />
-                <img src={deals} alt="..." />
+                <NavLink to="/products">
+                    <img src={delivery} alt="..." />  </NavLink>
+                <NavLink to="/products">
+                    <img src={discount} alt="..." />  </NavLink>
+                <NavLink to="/products">
+                    <img src={deals} alt="..." />  </NavLink>
 
                 <Slider {...settings2}>
                     <div className="carousel-item active" >
-                        <img src={d1} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={d1} className="d-block w-100" alt="..." /> </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={d2} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={d2} className="d-block w-100" alt="..." /> </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={d3} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={d3} className="d-block w-100" alt="..." /> </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={d4} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={d4} className="d-block w-100" alt="..." /> </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={d5} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">
+                            <img src={d5} className="d-block w-100" alt="..." /> </NavLink>
                     </div>
                 </Slider>
             </div>
@@ -580,19 +671,25 @@ const Content = () => {
             <div className='sponsors_deals'>
                 <img src={meet_sponsors} alt="..." />
                 <div className='sponsors_items'>
-                    <div><img src={b1} alt="..." /></div>
-                    <div><img src={b2} alt="..." /></div>
-                    <div> <img src={b3} alt="..." /></div>
+
+                    <div>  <NavLink to="/products"><img src={b1} alt="..." />  </NavLink></div>
+                    <div>  <NavLink to="/products"><img src={b2} alt="..." />  </NavLink></div>
+                    <div>  <NavLink to="/products"> <img src={b3} alt="..." />  </NavLink></div>
+
                 </div>
                 <div className='sponsors_items'>
-                    <div><img src={b4} alt="..." /></div>
-                    <div><img src={b5} alt="..." /></div>
-                    <div> <img src={b6} alt="..." /></div>
+
+                    <div> <NavLink to="/products"><img src={b4} alt="..." /></NavLink></div>
+                    <div> <NavLink to="/products"><img src={b5} alt="..." /></NavLink></div>
+                    <div> <NavLink to="/products"> <img src={b6} alt="..." /></NavLink></div>
+
                 </div>
                 <div className='sponsors_items'>
-                    <div><img src={b7} alt="..." /></div>
-                    <div><img src={b8} alt="..." /></div>
-                    <div> <img src={b9} alt="..." /></div>
+
+                    <div> <NavLink to="/products"><img src={b7} alt="..." />     </NavLink></div>
+                    <div> <NavLink to="/products"><img src={b8} alt="..." />     </NavLink></div>
+                    <div> <NavLink to="/products"> <img src={b9} alt="..." />     </NavLink></div>
+
                 </div>
 
             </div>
@@ -600,45 +697,57 @@ const Content = () => {
             <div className='w_winners'>
                 <img src={winners} alt="..." />
                 <div className='b_items'>
-                    <div><img src={k_k} alt="..." /></div>
-                    <div><img src={t_shirts} alt="..." /></div>
-                    <div> <img src={tops} alt="..." /></div>
-                    <div> <img src={shirts} alt="..." /></div>
+                   
+                        <div> <NavLink to="/products"><img src={k_k} alt="..." />  </NavLink></div>
+                        <div> <NavLink to="/products"><img src={t_shirts} alt="..." />  </NavLink></div>
+                        <div> <NavLink to="/products"> <img src={tops} alt="..." />  </NavLink></div>
+                        <div> <NavLink to="/products"> <img src={shirts} alt="..." />  </NavLink></div>
+                  
                 </div>
                 <div className='b_items'>
-                    <div><img src={jeans} alt="..." /></div>
-                    <div><img src={track} alt="..." /></div>
-                    <div> <img src={trousers} alt="..." /></div>
-                    <div> <img src={shorts} alt="..." /></div>
+                   
+                        <div> <NavLink to="/products"><img src={jeans} alt="..." /></NavLink></div>
+                        <div> <NavLink to="/products"><img src={track} alt="..." /></NavLink></div>
+                        <div> <NavLink to="/products"> <img src={trousers} alt="..."/></NavLink></div>
+                        <div> <NavLink to="/products"> <img src={shorts} alt="..." /></NavLink></div>
+                    
                 </div>
                 <div className='b_items'>
-                    <div><img src={dress} alt="..." /></div>
-                    <div><img src={flip} alt="..." /></div>
-                    <div> <img src={sports} alt="..." /></div>
-                    <div> <img src={formal} alt="..." /></div>
+                   
+                        <div> <NavLink to="/products"><img src={dress} alt="..." /></NavLink></div>
+                        <div> <NavLink to="/products"><img src={flip} alt="..." /></NavLink></div>
+                        <div> <NavLink to="/products"> <img src={sports} alt="..." /></NavLink></div>
+                        <div> <NavLink to="/products"> <img src={formal} alt="..." /></NavLink></div>
+                 
                 </div>
             </div>
 
             <div className='exclusives'>
                 <img src={exclusives} alt="..." />
                 <Slider {...settings}>
-                    <div><img src={rose} alt="..." /></div>
-                    <div><img src={netplay} alt="..." /></div>
-                    <div><img src={teamspirit} alt="..." /></div>
-                    <div><img src={gap} alt="..." /></div>
-                    <div><img src={superdry} alt="..." /></div>
-                    <div><img src={lee_cooper} alt="..." /></div>
-                    <div><img src={steve_madden} alt="..." /></div>
-                    <div><img src={azorte} alt="..." /></div>
-                    <div><img src={perfomax} alt="..." /></div>
-                    <div><img src={john_players} alt="..." /></div>
+
+                    <div> <NavLink to="/products"><img src={rose} alt="..." />  </NavLink></div>
+                    <div> <NavLink to="/products"><img src={netplay} alt="..." />  </NavLink></div>
+                    <div> <NavLink to="/products"><img src={teamspirit} alt="..." />  </NavLink></div>
+                    <div> <NavLink to="/products"><img src={gap} alt="..." />  </NavLink></div>
+                    <div> <NavLink to="/products"><img src={superdry} alt="..." />  </NavLink></div>
+                    <div> <NavLink to="/products"><img src={lee_cooper} alt="..." />  </NavLink></div>
+                    <div> <NavLink to="/products"><img src={steve_madden} alt="..." />  </NavLink></div>
+                    <div> <NavLink to="/products"><img src={azorte} alt="..." />  </NavLink></div>
+                    <div> <NavLink to="/products"><img src={perfomax} alt="..." />  </NavLink></div>
+                    <div> <NavLink to="/products"><img src={john_players} alt="..." />  </NavLink></div>
+
                 </Slider>
-                <img src={explore_more} alt="..." />
+                <NavLink to="/products">
+                    <img src={explore_more} alt="..." />
+                </NavLink>
             </div>
 
             <div className='star'>
+
                 <img src={star} alt="..." />
                 <Slider  {...settings}>
+
                     <div><img src={r1} alt="..." /></div>
                     <div><img src={r2} alt="..." /></div>
                     <div><img src={r3} alt="..." /></div>
@@ -652,11 +761,11 @@ const Content = () => {
                 </Slider>
                 <img src={daily} alt="..." />
                 <Slider  {...settings}>
-                    <div><img src={s1} alt="..." /></div>
-                    <div><img src={s2} alt="..." /></div>
-                    <div><img src={s3} alt="..." /></div>
-                    <div><img src={s4} alt="..." /></div>
-                    <div><img src={s5} alt="..." /></div>
+                    <div> <NavLink to="/products"><img src={s1} alt="..." />  </NavLink></div>
+                    <div> <NavLink to="/products"><img src={s2} alt="..." />  </NavLink></div>
+                    <div> <NavLink to="/products"><img src={s3} alt="..." />  </NavLink></div>
+                    <div> <NavLink to="/products"><img src={s4} alt="..." />  </NavLink></div>
+                    <div> <NavLink to="/products"><img src={s5} alt="..." />  </NavLink></div>
 
 
                 </Slider>
@@ -667,25 +776,25 @@ const Content = () => {
 
                 <Slider {...settings2}>
                     <div className="carousel-item active" >
-                        <img src={mens_w} className="d-block w-100" alt="..." />
+                        <NavLink to="/products"> <img src={mens_w} className="d-block w-100" alt="..." /> </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={women_w} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">  <img src={women_w} className="d-block w-100" alt="..." /> </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={women_e} className="d-block w-100" alt="..." />
+                        <NavLink to="/products"> <img src={women_e} className="d-block w-100" alt="..." /> </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={tranding_e} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">  <img src={tranding_e} className="d-block w-100" alt="..." /> </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={kidsware} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">  <img src={kidsware} className="d-block w-100" alt="..." /> </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={a_m} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">  <img src={a_m} className="d-block w-100" alt="..." /> </NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={h_d} className="d-block w-100" alt="..." />
+                        <NavLink to="/products"> <img src={h_d} className="d-block w-100" alt="..." /> </NavLink>
                     </div>
                 </Slider>
 
@@ -694,16 +803,16 @@ const Content = () => {
             <div className='hot_deals'>
                 <img src={hot_deals} alt="..." />
                 <div className='b_items'>
-                    <div><img src={bedsheets} alt="..." /></div>
-                    <div><img src={beauty} alt="..." /></div>
-                    <div> <img src={handbags} alt="..." /></div>
-                    <div> <img src={watches} alt="..." /></div>
+                    <div> <NavLink to="/products"> <img src={bedsheets} alt="..." /> </NavLink></div>
+                    <div> <NavLink to="/products"> <img src={beauty} alt="..." /> </NavLink></div>
+                    <div> <NavLink to="/products">  <img src={handbags} alt="..." /> </NavLink></div>
+                    <div> <NavLink to="/products">  <img src={watches} alt="..." /> </NavLink></div>
                 </div>
                 <div className='b_items'>
-                    <div><img src={v_w} alt="..." /></div>
-                    <div><img src={caps} alt="..." /></div>
-                    <div> <img src={innerwear} alt="..." /></div>
-                    <div> <img src={fashion_je} alt="..." /></div>
+                    <div><NavLink to="/products"> <img src={v_w} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"> <img src={caps} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products">  <img src={innerwear} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products">  <img src={fashion_je} alt="..." /></NavLink></div>
                 </div>
 
             </div>
@@ -712,41 +821,41 @@ const Content = () => {
                 <img src={ss_24} alt="..." />
 
                 <Slider {...settings}>
-                    <div><img src={mind_20_1} alt="..." /></div>
-                    <div><img src={mind_20_2} alt="..." /></div>
-                    <div><img src={upto_30_1} alt="..." /></div>
-                    <div><img src={upto_30_2} alt="..." /></div>
-                    <div><img src={upto_30_3} alt="..." /></div>
-                    <div><img src={explore_all} alt="..." /></div>
+                    <div><NavLink to="/products"><img src={mind_20_1} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={mind_20_2} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={upto_30_1} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={upto_30_2} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={upto_30_3} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={explore_all} alt="..." /></NavLink></div>
                 </Slider>
             </div>
             <div className='hot_deals1'>
                 <img src={scoring} alt="..." />
-                <img src={crocs} alt="..." />
+                <NavLink to="/products"> <img src={crocs} alt="..." /></NavLink>
                 <div className='sponsors_items'>
-                    <div><img src={jack_jones} alt="..." /></div>
-                    <div><img src={rebook} alt="..." /></div>
-                    <div> <img src={ax} alt="..." /></div>
+                    <div><NavLink to="/products"><img src={jack_jones} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={rebook} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"> <img src={ax} alt="..." /></NavLink></div>
                 </div>
                 <div className='sponsors_items'>
-                    <div><img src={superdry1} alt="..." /></div>
-                    <div><img src={gap1} alt="..." /></div>
-                    <div> <img src={uspolo1} alt="..." /></div>
+                    <div><NavLink to="/products"><img src={superdry1} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={gap1} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"> <img src={uspolo1} alt="..." /></NavLink></div>
                 </div>
                 <div className='sponsors_items'>
-                    <div><img src={gas} alt="..." /></div>
-                    <div><img src={thebear} alt="..." /></div>
-                    <div> <img src={snitch} alt="..." /></div>
+                    <div><NavLink to="/products"><img src={gas} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={thebear} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"> <img src={snitch} alt="..." /></NavLink></div>
                 </div>
                 <div className='sponsors_items'>
-                    <div><img src={brocks} alt="..." /></div>
-                    <div><img src={fashor} alt="..." /></div>
-                    <div> <img src={kotty} alt="..." /></div>
+                    <div><NavLink to="/products"><img src={brocks} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={fashor} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"> <img src={kotty} alt="..." /></NavLink></div>
                 </div>
                 <div className='sponsors_items'>
-                    <div><img src={blues} alt="..." /></div>
-                    <div><img src={clarks} alt="..." /></div>
-                    <div> <img src={steve} alt="..." /></div>
+                    <div><NavLink to="/products"><img src={blues} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={clarks} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"> <img src={steve} alt="..." /></NavLink></div>
                 </div>
 
             </div>
@@ -754,276 +863,276 @@ const Content = () => {
             <div className='hot_deals1'>
                 <img src={c18} alt="..." />
                 <Slider {...settings}>
-                    <div><img src={c19} alt="..." /></div>
-                    <div><img src={c20} alt="..." /></div>
-                    <div><img src={c21} alt="..." /></div>
-                    <div><img src={c22} alt="..." /></div>
-                    <div><img src={c23} alt="..." /></div>
+                    <div><NavLink to="/products"><img src={c19} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={c20} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={c21} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={c22} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={c23} alt="..." /></NavLink></div>
                 </Slider>
                 <img src={v1} alt="..." />
                 <Slider {...settings}>
-                    <div><img src={v2} alt="..." /></div>
-                    <div><img src={v3} alt="..." /></div>
-                    <div><img src={v4} alt="..." /></div>
-                    <div><img src={v5} alt="..." /></div>
-                    <div><img src={v6} alt="..." /></div>
+                    <div><NavLink to="/products"><img src={v2} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={v3} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={v4} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={v5} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={v6} alt="..." /></NavLink></div>
                 </Slider>
                 <img src={k1} alt="..." />
                 <Slider {...settings}>
-                    <div><img src={k2} alt="..." /></div>
-                    <div><img src={k3} alt="..." /></div>
-                    <div><img src={k4} alt="..." /></div>
-                    <div><img src={k5} alt="..." /></div>
-                    <div><img src={k6} alt="..." /></div>
-                    <div><img src={k7} alt="..." /></div>
-                    <div><img src={k8} alt="..." /></div>
+                    <div><NavLink to="/products"><img src={k2} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={k3} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={k4} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={k5} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={k6} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={k7} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={k8} alt="..." /></NavLink></div>
                 </Slider>
                 <img src={h1} alt="..." />
                 <Slider {...settings}>
-                    <div><img src={h2} alt="..." /></div>
-                    <div><img src={h3} alt="..." /></div>
-                    <div><img src={h4} alt="..." /></div>
-                    <div><img src={h5} alt="..." /></div>
+                    <div><NavLink to="/products"><img src={h2} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={h3} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={h4} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={h5} alt="..." /></NavLink></div>
 
                 </Slider>
                 <img src={z1} alt="..." />
                 <Slider {...settings}>
-                    <div><img src={z2} alt="..." /></div>
-                    <div><img src={z3} alt="..." /></div>
-                    <div><img src={z4} alt="..." /></div>
-                    <div><img src={z5} alt="..." /></div>
-                    <div><img src={z6} alt="..." /></div>
+                    <div><NavLink to="/products"><img src={z2} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={z3} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={z4} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={z5} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={z6} alt="..." /></NavLink></div>
 
                 </Slider>
 
-                <Slider>
+                <Slider  {...settings2}>
                     <div className="carousel-item active" >
-                        <img src={z7} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">  <img src={z7} className="d-block w-100" alt="..." /></NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={z8} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">  <img src={z8} className="d-block w-100" alt="..." /></NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={z9} className="d-block w-100" alt="..." />
+                        <NavLink to="/products"> <img src={z9} className="d-block w-100" alt="..." /></NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={z10} className="d-block w-100" alt="..." />
+                        <NavLink to="/products"> <img src={z10} className="d-block w-100" alt="..." /></NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={z11} className="d-block w-100" alt="..." />
+                        <NavLink to="/products">  <img src={z11} className="d-block w-100" alt="..." /></NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={z12} className="d-block w-100" alt="..." />
+                        <NavLink to="/products"><img src={z12} className="d-block w-100" alt="..." /></NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={z13} className="d-block w-100" alt="..." />
+                        <NavLink to="/products"> <img src={z13} className="d-block w-100" alt="..." /></NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={z14} className="d-block w-100" alt="..." />
+                        <NavLink to="/products"> <img src={z14} className="d-block w-100" alt="..." /></NavLink>
                     </div>
                 </Slider>
                 <div className='beautyall'>
                     <img src={z15} alt="..." />
                     <Slider {...settings1}>
-                        <div><img src={z16} alt="..." /></div>
-                        <div><img src={z17} alt="..." /></div>
-                        <div><img src={z18} alt="..." /></div>
-                        <div><img src={z19} alt="..." /></div>
-                        <div><img src={z20} alt="..." /></div>
-                        <div><img src={z21} alt="..." /></div>
-                        <div><img src={z22} alt="..." /></div>
+                        <div><NavLink to="/products"><img src={z16} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={z17} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={z18} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={z19} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={z20} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={z21} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={z22} alt="..." /></NavLink></div>
                     </Slider>
                 </div>
                 <img src={z23} alt="..." />
                 <div className='sponsors_items'>
-                    <div><img src={z24} alt="..." /></div>
-                    <div><img src={z25} alt="..." /></div>
-                    <div> <img src={z26} alt="..." /></div>
+                    <div><NavLink to="/products"><img src={z24} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={z25} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"> <img src={z26} alt="..." /></NavLink></div>
                 </div>
                 <div className='sponsors_items'>
-                    <div><img src={z27} alt="..." /></div>
-                    <div><img src={z28} alt="..." /></div>
-                    <div> <img src={z29} alt="..." /></div>
+                    <div><NavLink to="/products"><img src={z27} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={z28} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"> <img src={z29} alt="..." /></NavLink></div>
                 </div>
                 <div className='sponsors_items'>
-                    <div><img src={z30} alt="..." /></div>
-                    <div><img src={z31} alt="..." /></div>
-                    <div> <img src={z32} alt="..." /></div>
+                    <div><NavLink to="/products"><img src={z30} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={z31} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"> <img src={z32} alt="..." /></NavLink></div>
                 </div>
                 <div className='sponsors_items'>
-                    <div><img src={z33} alt="..." /></div>
-                    <div><img src={z34} alt="..." /></div>
-                    <div> <img src={z35} alt="..." /></div>
+                    <div><NavLink to="/products"><img src={z33} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={z34} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"> <img src={z35} alt="..." /></NavLink></div>
                 </div>
                 <div className='sponsors_items'>
-                    <div><img src={z36} alt="..." /></div>
-                    <div><img src={z37} alt="..." /></div>
-                    <div> <img src={z38} alt="..." /></div>
+                    <div><NavLink to="/products"><img src={z36} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"><img src={z37} alt="..." /></NavLink></div>
+                    <div><NavLink to="/products"> <img src={z38} alt="..." /></NavLink></div>
                 </div>
                 <img src={z39} alt="..." />
                 <Slider {...settings2}>
                     <div className="carousel-item active" >
-                        <img src={z40} className="d-block w-100" alt="..." />
+                    <NavLink to="/products"><img src={z40} className="d-block w-100" alt="..." /></NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={z41} className="d-block w-100" alt="..." />
+                    <NavLink to="/products"> <img src={z41} className="d-block w-100" alt="..." /></NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={z42} className="d-block w-100" alt="..." />
+                    <NavLink to="/products"> <img src={z42} className="d-block w-100" alt="..." /></NavLink>
                     </div>
                     <div className="carousel-item" >
-                        <img src={z43} className="d-block w-100" alt="..." />
+                    <NavLink to="/products"> <img src={z43} className="d-block w-100" alt="..." /></NavLink>
                     </div>
                 </Slider>
                 <div className='gift'>
                     <img src={gift} alt="..." />
                     <img src={w1} alt="..." />
                     <Slider {...settings1}>
-                        <div><img src={w2} alt="..." /></div>
-                        <div><img src={w3} alt="..." /></div>
-                        <div><img src={w4} alt="..." /></div>
-                        <div><img src={w5} alt="..." /></div>
-                        <div><img src={w6} alt="..." /></div>
-                        <div><img src={w7} alt="..." /></div>
-                        <div><img src={w8} alt="..." /></div>
-                        <div><img src={w9} alt="..." /></div>
+                        <div><NavLink to="/products"> <img src={w2} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"> <img src={w3} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"> <img src={w4} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"> <img src={w5} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"> <img src={w6} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"> <img src={w7} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"> <img src={w8} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"> <img src={w9} alt="..." /></NavLink></div>
                     </Slider>
                     <img src={e1} alt="..." />
                     <Slider {...settings1}>
-                        <div><img src={e2} alt="..." /></div>
-                        <div><img src={e3} alt="..." /></div>
-                        <div><img src={e4} alt="..." /></div>
-                        <div><img src={e5} alt="..." /></div>
-                        <div><img src={e6} alt="..." /></div>
-                        <div><img src={e7} alt="..." /></div>
-                        <div><img src={e8} alt="..." /></div>
-                        <div><img src={e9} alt="..." /></div>
-                        <div><img src={e10} alt="..." /></div>
+                        <div><NavLink to="/products"><img src={e2} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={e3} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={e4} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={e5} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={e6} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={e7} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={e8} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={e9} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={e10} alt="..." /></NavLink></div>
                     </Slider>
                     <img src={fa1} alt="..." />
                     <Slider {...settings1}>
-                        <div><img src={fa2} alt="..." /></div>
-                        <div><img src={fa3} alt="..." /></div>
-                        <div><img src={fa4} alt="..." /></div>
-                        <div><img src={fa5} alt="..." /></div>
-                        <div><img src={fa6} alt="..." /></div>
-                        <div><img src={fa7} alt="..." /></div>
-                        <div><img src={fa8} alt="..." /></div>
+                        <div><NavLink to="/products"><img src={fa2} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={fa3} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={fa4} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={fa5} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={fa6} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={fa7} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={fa8} alt="..." /></NavLink></div>
 
                     </Slider>
                     <img src={ba1} alt="..." />
                     <Slider {...settings}>
-                        <div><img src={ba2} alt="..." /></div>
-                        <div><img src={ba3} alt="..." /></div>
-                        <div><img src={ba4} alt="..." /></div>
-                        <div><img src={ba5} alt="..." /></div>
-                        <div><img src={ba6} alt="..." /></div>
-                        <div><img src={ba8} alt="..." /></div>
-                        <div><img src={ba9} alt="..." /></div>
+                        <div><NavLink to="/products"><img src={ba2} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ba3} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ba4} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ba5} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ba6} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ba8} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ba9} alt="..." /></NavLink></div>
 
                     </Slider>
                     <img src={ka1} alt="..." />
                     <Slider {...settings1}>
-                        <div><img src={ka5} alt="..." /></div>
-                        <div><img src={ka6} alt="..." /></div>
-                        <div><img src={ka2} alt="..." /></div>
-                        <div><img src={ka3} alt="..." /></div>
-                        <div><img src={ka4} alt="..." /></div>
+                        <div><NavLink to="/products"><img src={ka5} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ka6} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ka2} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ka3} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ka4} alt="..." /></NavLink></div>
                     </Slider>
                     <img src={l1} alt="..." />
                     <Slider {...settings}>
-                        <div><img src={l2} alt="..." /></div>
-                        <div><img src={l3} alt="..." /></div>
-                        <div><img src={l4} alt="..." /></div>
-                        <div><img src={l5} alt="..." /></div>
-                        <div><img src={l6} alt="..." /></div>
-                        <div><img src={l7} alt="..." /></div>
-                        <div><img src={l8} alt="..." /></div>
-                        <div><img src={l9} alt="..." /></div>
-                        <div><img src={l10} alt="..." /></div>
-                        <div><img src={l11} alt="..." /></div>
+                        <div><NavLink to="/products"><img src={l2} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={l3} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={l4} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={l5} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={l6} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={l7} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={l8} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={l9} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={l10} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={l11} alt="..." /></NavLink></div>
                     </Slider>
                     <img src={sa1} alt="..." />
                     <Slider {...settings}>
-                        <div><img src={sa2} alt="..." /></div>
-                        <div><img src={sa3} alt="..." /></div>
-                        <div><img src={sa4} alt="..." /></div>
-                        <div><img src={sa5} alt="..." /></div>
-                        <div><img src={sa6} alt="..." /></div>
-                        <div><img src={sa7} alt="..." /></div>
-                        <div><img src={sa8} alt="..." /></div>
+                        <div><NavLink to="/products"><img src={sa2} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={sa3} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={sa4} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={sa5} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={sa6} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={sa7} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={sa8} alt="..." /></NavLink></div>
                     </Slider>
                     <img src={za1} alt="..." />
                     <Slider {...settings}>
-                        <div><img src={za2} alt="..." /></div>
-                        <div><img src={za3} alt="..." /></div>
-                        <div><img src={za4} alt="..." /></div>
-                        <div><img src={za5} alt="..." /></div>
-                        <div><img src={za6} alt="..." /></div>
-                        <div><img src={za7} alt="..." /></div>
-                        <div><img src={za8} alt="..." /></div>
+                        <div><NavLink to="/products"><img src={za3} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={za2} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={za4} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={za5} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={za6} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={za7} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={za8} alt="..." /></NavLink></div>
                     </Slider>
                     <img src={t1} alt="..." />
                     <Slider {...settings}>
-                        <div><img src={t2} alt="..." /></div>
-                        <div><img src={t3} alt="..." /></div>
-                        <div><img src={t4} alt="..." /></div>
-                        <div><img src={t5} alt="..." /></div>
-                        <div><img src={t6} alt="..." /></div>
-                        <div><img src={t7} alt="..." /></div>
+                        <div><NavLink to="/products"><img src={t2} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={t3} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={t4} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={t5} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={t6} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={t7} alt="..." /></NavLink></div>
                     </Slider>
                     <img src={ha1} alt="..." />
                     <Slider {...settings1}>
-                        <div><img src={ha2} alt="..." /></div>
-                        <div><img src={ha3} alt="..." /></div>
-                        <div><img src={ha4} alt="..." /></div>
-                        <div><img src={ha5} alt="..." /></div>
-                        <div><img src={ha6} alt="..." /></div>
-                        <div><img src={ha7} alt="..." /></div>
+                        <div><NavLink to="/products"><img src={ha2} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ha3} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ha4} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ha5} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ha6} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ha7} alt="..." /></NavLink></div>
                     </Slider>
                     <img src={ss1} alt="..." />
                     <img src={ads1} alt="..." />
                     <div className='sponsors_items'>
-                        <div><img src={ads2} alt="..." /></div>
-                        <div><img src={ads3} alt="..." /></div>
-                        <div><img src={ads4} alt="..." /></div>
+                        <div><NavLink to="/products"><img src={ads2} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ads3} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ads4} alt="..." /></NavLink></div>
                     </div>
                     <div className='sponsors_items'>
-                        <div><img src={ads5} alt="..." /></div>
-                        <div><img src={ads6} alt="..." /></div>
-                        <div><img src={ads7} alt="..." /></div>
+                        <div><NavLink to="/products"><img src={ads5} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ads6} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ads7} alt="..." /></NavLink></div>
                     </div>
                     <div className='sponsors_items'>
-                        <div><img src={ads8} alt="..." /></div>
-                        <div><img src={ads9} alt="..." /></div>
-                        <div><img src={ads10} alt="..." /></div>
+                        <div><NavLink to="/products"><img src={ads8} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ads9} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ads10} alt="..." /></NavLink></div>
                     </div>
                     <div className='sponsors_items'>
-                        <div><img src={ads11} alt="..." /></div>
-                        <div><img src={ads12} alt="..." /></div>
-                        <div><img src={ads13} alt="..." /></div>
+                        <div><NavLink to="/products"><img src={ads11} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ads12} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ads13} alt="..." /></NavLink></div>
                     </div>
                     <div className='sponsors_items'>
-                        <div><img src={ads14} alt="..." /></div>
-                        <div><img src={ads15} alt="..." /></div>
-                        <div><img src={ads16} alt="..." /></div>
+                        <div><NavLink to="/products"><img src={ads14} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ads15} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ads16} alt="..." /></NavLink></div>
                     </div>
                     <div className='sponsors_items'>
-                        <div><img src={ads17} alt="..." /></div>
-                        <div><img src={ads18} alt="..." /></div>
-                        <div><img src={ads19} alt="..." /></div>
+                        <div><NavLink to="/products"><img src={ads17} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ads18} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ads19} alt="..." /></NavLink></div>
                     </div>
                     <div className='sponsors_items'>
-                        <div><img src={ads20} alt="..." /></div>
-                        <div><img src={ads21} alt="..." /></div>
-                        <div><img src={ads22} alt="..." /></div>
+                        <div><NavLink to="/products"><img src={ads20} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ads21} alt="..." /></NavLink></div>
+                        <div><NavLink to="/products"><img src={ads22} alt="..." /></NavLink></div>
                     </div>
                     <img src={end1} alt="..." />
                     <img src={end2} alt="..." />
                 </div>
                 <div className='apps'>
                     <p>Experience the AJIO mobile app</p>
-                   <div> <img src={app_store} alt="..." /></div>
+                    <div> <img src={app_store} alt="..." /></div>
                 </div>
                 <div className='service'>
                     <strong>Assured Quality | 100% Handpicked | Easy Exchange</strong>

@@ -81,7 +81,7 @@ const Cart = () => {
           <NavLink to={`/products/${id}`}><img src={close} alt="..." /></NavLink>
         </div>
         <div className='cart2'>
-          <p>Step 1 Of 3</p>
+         
           <span>Bag (1 Product)</span>
         </div>
         <div className='cart3'>
@@ -156,7 +156,7 @@ const Cart = () => {
                 <span>View Details</span>
               </div>
               <div className='final_order'>
-              <NavLink to={`/address/${item.id}`}>Place Order</NavLink>
+              <NavLink to={`/checkout/${id}?quantity=${quantity}&original_price=${item.original_price}&discount_price=${item.discount_price}`}>Place Order</NavLink>
               </div>
             </div>
           </div>

@@ -195,7 +195,7 @@ function DetailsProduct() {
             <div className='add_carts'>
               <div className='upload'><img src={upload} alt="..." /></div>
               <div className='upload'><img src={like} alt="..." /></div>
-              <div className='cart'><NavLink to={`/cart/${data[0].id}?size=${Size}`}><img src={cart1} alt="..." /><strong> Buy Now</strong></NavLink></div>
+              <NavLink to={`/cart/${data[0].id}?size=${Size}`}> <div className='cart'><img src={cart1} alt="..." /><strong> Buy Now</strong></div></NavLink>
             </div>
             <div className='more_products'>
               <div><strong>More Products</strong></div>

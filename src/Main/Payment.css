@@ -1,0 +1,190 @@
+.payment_Section
+{  background-color: #f0f4f7;}
+
+
+.payment_header
+{
+    width: 100%;
+    display: flex;
+    padding: 4%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #fff;
+    border-bottom: 0.5px solid rgba(18, 18, 18, 0.12);
+    z-index: 999;
+}
+.payment_header .cart1 {
+    width: 13%;
+    display: flex;
+    align-self: center;
+    justify-content: flex-start;
+  }
+  
+  .payment_header .cart2 {
+    width: 80%;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+  }
+.services
+{
+    font-size: 10px;
+    color: #6D6D6D;
+   padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+.offers_promotions 
+{
+    background-color: #fff;
+    padding: 4%;
+    color: #202020;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+.pay_via
+{
+    background-color: #fff;
+    padding: 4%;
+    color: #202020;
+}
+
+.offers_promotions_header
+{
+    display: flex;
+    justify-content: space-between;
+    color: #202020;
+}
+.offers_promotions_header p
+{
+    font-size: 12px;
+    color: #33769B;
+    font-weight: 600;
+}
+
+.offers_details
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    padding: 2%;
+    font-size: 12px;
+    border: 0.5px solid #f0f4f7;
+    color: #202020;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgba(32,32,32,.16);
+    font-weight: 600;
+    width: 100%;
+}
+.offers_details  .p_details
+{
+    width: 85%;
+    font-weight: 100;
+}
+.p_details strong
+{
+    color: #33769B;
+}
+
+
+.offers_details .img
+{
+
+    width: 10%;
+    color: #202020;
+    display: flex;
+    align-self: center;
+}
+.offers_details .img img{
+    width: 100%;
+}
+.pay_via p
+{
+    margin-top: 3vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    color: #202020;
+}
+.pay_via div
+{
+    margin-top: 3vh;
+}
+
+
+.redirect
+{
+    border: none;
+    color: #33769B;
+    font-size: 12px;
+}
+.pay_via img
+{
+    width:20PX;
+    margin-right: 2vw;
+}
+.across
+{
+    padding: 2%;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    color: #202020;
+    align-self: center;
+    font-weight: 600;
+}
+.pays
+{
+    display: flex;
+    align-items: center;
+}
+
+.amount_payable
+{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-bottom: 5vh;
+    color: #202020;
+}
+
+.space
+{
+    margin-top: 10px;
+}
+
+.space_extra
+{
+    margin-bottom: 6vh;
+}
+
+.final_order button:disabled
+{
+    width: 100%;
+    border: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.pay_via>p>a
+{
+    color: #202020;
+    width: 100%;
+}
+
+.alignment
+{
+    display: flex;
+    flex-direction: column;
+}
+.side
+{
+    display: flex;
+    flex-direction: row;
+}
+.upi
+{
+    font-size: 12px;
+}

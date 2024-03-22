@@ -16,7 +16,7 @@
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: center;
- padding:0% 1% 0% 1%;
+ padding:1%;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -319,7 +319,7 @@ ul{
   align-items: center;
   justify-content: center;
 }
-.add_carts .cart{
+.add_carts a{
   flex-basis: 60%;
   height: 48px;
   width: 51px;
